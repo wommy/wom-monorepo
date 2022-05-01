@@ -1,0 +1,9 @@
+{
+  "name": "@wmr/page-index",
+  "private": true,
+  "version": "0.0.2",
+  "main": "index.html",
+  "dependencies": {
+    "@wmr/util-eleventy": "workspace:^0.1.0"
+  }
+}

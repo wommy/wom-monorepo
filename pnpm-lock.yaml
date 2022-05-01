@@ -1,0 +1,9 @@
+lockfileVersion: 5.4
+
+importers:
+
+  packages/page-index:
+    specifiers:
+      '@wmr/util-eleventy': workspace:^0.1.0
+    dependencies:
+      '@wmr/util-eleventy': link:../util-eleventy
