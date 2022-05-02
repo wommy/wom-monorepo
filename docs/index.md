@@ -22,6 +22,7 @@ wommy monorepo
 tudo
 --
 
+- [ ] Rd
 - [ ] differentiate between pages and components
 - [ ] homepage
 	- [ ] olde
