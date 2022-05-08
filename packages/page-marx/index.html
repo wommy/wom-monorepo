@@ -1,6 +1,6 @@
 ---
 pagination:
-  data: sanityGET
+  data: eleventyFetch.result
   size: 500
   alias: marx
 ---
@@ -15,9 +15,12 @@ pagination:
 		<h1>marx</h1>	
 	</header>
 	<main>
-		<h2>does this shit work</h2>
-		<p>{{ githubGET | log }}</p>
-		<p>{{ marx[0] | log }}</p>
+		<h2>does this shit work?</h2>
+			{% comment %}
+		<p>{{ eleventyFetch.ms | log }}</p>
+		<p>{{ eleventyFetch.query | log }}</p>
+		<p>{{ eleventyFetch.result | slice: 1, 10 | log }}</p>
+			{% endcomment %}
 		<ol>
 		{% for ea in marx %}
 			<li>
