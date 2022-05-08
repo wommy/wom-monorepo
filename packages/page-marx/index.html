@@ -1,3 +1,9 @@
+---
+pagination:
+  data: sanityGET
+  size: 500
+  alias: marx
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +17,17 @@
 	<main>
 		<h2>does this shit work</h2>
 		<p>{{ githubGET | log }}</p>
+		<p>{{ marx[0] | log }}</p>
+		<ol>
+		{% for ea in marx %}
+			<li>
+				<div>
+					<span>{{ ea.category }}</span> -
+					<a href="{{ ea.url }}">{{ ea.title }}</a>
+				</div>
+			</li>
+		{% endfor %}
+		</ol>
 	</main>
 </body>
 </html>
