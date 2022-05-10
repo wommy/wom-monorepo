@@ -1,8 +1,12 @@
----
-pagination:
-  data: eleventyFetch.result
-  size: 500
-  alias: marx
+---js
+{
+  pagination: {
+    data: "eleventyFetch.thisYear",
+    size: 1000,
+    reverse: true,
+		alias: "marx2022",
+  }
+}
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -15,22 +19,24 @@ pagination:
 		<h1>marx</h1>	
 	</header>
 	<main>
-		<h2>does this shit work?</h2>
-			{% comment %}
-		<p>{{ eleventyFetch.ms | log }}</p>
-		<p>{{ eleventyFetch.query | log }}</p>
-		<p>{{ eleventyFetch.result | slice: 1, 10 | log }}</p>
-			{% endcomment %}
+		<h2>2022 - current</h2>
 		<ol>
-		{% for ea in marx %}
+			{% comment %}
+			{{ marx2022 | log }}
+			{% endcomment %}
+			{% for ea in marx2022 %}
 			<li>
 				<div>
-					<span>{{ ea.category }}</span> -
 					<a href="{{ ea.url }}">{{ ea.title }}</a>
+					<div>
+						<span>{{ ea._createdAt }}</span> -
+						<span>{{ ea.category }}</span>
+					</div>
 				</div>
 			</li>
-		{% endfor %}
+			{% endfor %}
 		</ol>
+		<h2>2022 - current</h2>
 	</main>
 </body>
 </html>
