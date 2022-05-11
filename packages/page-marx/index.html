@@ -1,42 +1,51 @@
 ---js
-{
-  pagination: {
-    data: "eleventyFetch.thisYear",
-    size: 1000,
-    reverse: true,
-		alias: "marx2022",
-  }
-}
+// {
+  // pagination: {
+    // data: 'marx',
+    // size: 1,
+  // }
+// }
 ---
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>marx | wommy</title>
-</head>
-<body>
-	<header>
-		<h1>marx</h1>	
-	</header>
-	<main>
-		<h2>2022 - current</h2>
-		<ol>
-			{% comment %}
-			{{ marx2022 | log }}
-			{% endcomment %}
-			{% for ea in marx2022 %}
-			<li>
-				<div>
-					<a href="{{ ea.url }}">{{ ea.title }}</a>
+	<head>
+		<meta charset="UTF-8" />
+		<title>marx | wommy</title>
+	</head>
+	<body>
+		<header>
+			<h1>marx</h1>
+		</header>
+		<main>
+			{% for ea in marx reversed %}
+			{% assign key = ea.first %}
+			{% assign array = ea.last %}
+			<h2>{{ key }}</h2>
+			<ol>
+				{% for entry in array reversed limit:20 %}
+				<li>
+					<a href="{{ entry.url }}">{{ entry.title | escape }}</a>
 					<div>
-						<span>{{ ea._createdAt }}</span> -
-						<span>{{ ea.category }}</span>
+						<span>{{ entry.datetime | split:'T' | first }} - </span>
+						<span>[ {{ entry.category }} ]</span>
 					</div>
-				</div>
-			</li>
+				</li>
+				{% endfor %}
+				<details>
+					<summary>more</summary>
+					{% for entry in array reversed offset:20 %}
+					<li>
+						<a href="{{ entry.url }}">{{ entry.title | escape }}</a>
+						<div>
+							<span>{{ entry.datetime | split:'T' | first }} - </span>
+							<span>[ {{ entry.category }} ]</span>
+						</div>
+					</li>
+					{% endfor %}
+			</ol>
+			</details>
 			{% endfor %}
-		</ol>
-		<h2>2022 - current</h2>
-	</main>
-</body>
+		</main>
+	</body>
 </html>
