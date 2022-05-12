@@ -17,11 +17,13 @@ importers:
       '@11ty/eleventy-fetch': ^3.0.0
       '@sanity/client': ^3.3.0
       dotenv: ^16.0.0
+      netlify-plugin-cache: ^1.0.3
     dependencies:
       '@11ty/eleventy': 2.0.0-canary.9
       '@11ty/eleventy-fetch': 3.0.0
       '@sanity/client': 3.3.0
       dotenv: 16.0.0
+      netlify-plugin-cache: 1.0.3
 
   packages/util-eleventy:
     specifiers:
@@ -1186,6 +1188,10 @@ packages:
 
   /neo-async/2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
+    dev: false
+
+  /netlify-plugin-cache/1.0.3:
+    resolution: {integrity: sha512-CTOwNWrTOP59T6y6unxQNnp1WX702v2R/faR5peSH94ebrYfyY4zT5IsRcIiHKq57jXeyCrhy0GLuTN8ktzuQg==}
     dev: false
 
   /node-fetch/2.6.7:

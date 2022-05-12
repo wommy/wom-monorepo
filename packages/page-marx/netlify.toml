@@ -1,8 +1,9 @@
 # example netlify.toml
 [build]
+  # base = "packages/page-marx"
   command = "eleventy"
-  functions = "netlify/functions"
-  publish = "/packages/page-marx/_site"
+  # functions = "netlify/functions"
+  publish = "_site"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
@@ -13,9 +14,15 @@
 
   ## (optional) Settings for Netlify Dev
   ## https://github.com/netlify/cli/blob/main/docs/netlify-dev.md#project-detection
-  #[dev]
-  #  command = "yarn start" # Command to start your dev server
+  [dev]
+    command = "pnpm start" # Command to start your dev server
   #  port = 3000 # Port that the dev server will be listening on
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
+
+[[plugins]]
+package = "netlify-plugin-cache"
+
+  [plugins.inputs]
+  paths = [ ".cache" ]
