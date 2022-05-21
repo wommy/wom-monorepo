@@ -12,6 +12,14 @@
 	<head>
 		<meta charset="UTF-8" />
 		<title>marx | wommy</title>
+		<style>
+			details summary {
+				cursor: pointer;
+			}
+			details summary > * {
+				display: inline;
+			}
+		</style>
 	</head>
 	<body>
 		<header>
@@ -21,20 +29,12 @@
 			{% for ea in marx reversed %}
 			{% assign key = ea.first %}
 			{% assign array = ea.last %}
-			<h2>{{ key }}</h2>
-			<ol>
-				{% for entry in array reversed limit:20 %}
-				<li>
-					<a href="{{ entry.url }}">{{ entry.title | escape }}</a>
-					<div>
-						<span>{{ entry.datetime | split:'T' | first }} - </span>
-						<span>[ {{ entry.category }} ]</span>
-					</div>
-				</li>
-				{% endfor %}
-				<details>
-					<summary>more</summary>
-					{% for entry in array reversed offset:20 %}
+			<details>
+				<summary>
+					<h2>{{ key }}</h2>
+				</summary>
+				<ol>
+					{% for entry in array reversed %}
 					<li>
 						<a href="{{ entry.url }}">{{ entry.title | escape }}</a>
 						<div>
@@ -43,7 +43,7 @@
 						</div>
 					</li>
 					{% endfor %}
-			</ol>
+				</ol>
 			</details>
 			{% endfor %}
 		</main>
