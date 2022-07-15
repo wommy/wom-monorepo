@@ -1,0 +1,12 @@
+{
+  "name": "marx",
+  "version": "0.1.0",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --incremental",
+    "build": "npx @11ty/eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "2.0.0-canary.12",
+    "@sanity/client": "^3.3.0"
+  }
+}

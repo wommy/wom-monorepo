@@ -1,0 +1,37 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>marx / wommy</title>
+<style>
+li {
+	margin: 1rem .5rem;
+}
+</style>
+</head>
+<body>
+	<main>
+		<h1>marx</h1>
+		<details>
+			<summary>dont open</summary>
+			<ol reversed>
+				{% for ea in sanity | reverse %}
+				<li>
+					<div>
+						<a href="{{ ea.url }}">{{ ea.title }}</a>
+					</div>
+					<div>
+						<span>{{ ea.category }}</span>
+						<span> - </span>
+						<span>{{ ea._createdAt }}</span>
+					</div>
+				</li>
+				{% endfor %}
+			</ol>
+		</details>
+	</main>
+</body>
+</html>
