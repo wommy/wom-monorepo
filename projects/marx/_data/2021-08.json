@@ -1,0 +1,2354 @@
+[
+    {
+        "_createdAt": "2021-08-29T03:20:19Z",
+        "_id": "IbMFdPRg2DlP9ouOMvEsaD",
+        "_rev": "dWFfJLCovGPkcwYl20fTfF",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:07:45Z",
+        "category": [
+            "dota"
+        ],
+        "title": "How to be an actual god on Pudge - YouTube",
+        "url": "https://www.youtube.com/watch?v=F6Wfy9Ro4s4"
+    },
+    {
+        "_createdAt": "2021-08-29T17:28:53Z",
+        "_id": "QTJu4cxm72iant1E99xYkP",
+        "_rev": "PaYypp5eJ3aGfBF2x7fBjL",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:07:58Z",
+        "category": [
+            "food"
+        ],
+        "title": "Vegetable Korma; one of my favorite ways to eat lots of vegetables. - YouTube",
+        "url": "https://www.youtube.com/watch?v=prwyoQj0IOE"
+    },
+    {
+        "_createdAt": "2021-08-29T17:29:33Z",
+        "_id": "8mhCAmVdkgn2z5wVMuINNa",
+        "_rev": "800nO8Bf3aC80gW7yAcEDZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:08:08Z",
+        "category": [
+            "food"
+        ],
+        "title": "I eat the sh*t out of this Orzo Salad. - YouTube",
+        "url": "https://www.youtube.com/watch?v=440KebFxHag"
+    },
+    {
+        "_createdAt": "2021-08-29T17:34:18Z",
+        "_id": "IbMFdPRg2DlP9ouOMxDz4P",
+        "_rev": "800nO8Bf3aC80gW7yAcGNr",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:08:18Z",
+        "category": [
+            "food"
+        ],
+        "title": "Orzo Salad — Ethan",
+        "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/orzo-salad"
+    },
+    {
+        "_createdAt": "2021-08-29T17:55:58Z",
+        "_id": "IbMFdPRg2DlP9ouOMxJ4EZ",
+        "_rev": "800nO8Bf3aC80gW7yAcHeg",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:08:28Z",
+        "category": [
+            "food"
+        ],
+        "title": "Pantry Recipes: Lentils, 4 ways. - YouTube",
+        "url": "https://www.youtube.com/watch?v=UVrN1vVfoOY"
+    },
+    {
+        "_createdAt": "2021-08-29T17:56:06Z",
+        "_id": "QTJu4cxm72iant1E9A1ne8",
+        "_rev": "dWFfJLCovGPkcwYl20faNN",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:08:38Z",
+        "category": [
+            "food"
+        ],
+        "title": "Lentils (Dal Tadka, Hummus, Pilaf, Soup) — Ethan",
+        "url": "https://www.ethanchlebowski.com/cooking-techniques-recipes/lentils-dal-tadka-hummus-pilaf-soup"
+    },
+    {
+        "_createdAt": "2021-08-29T18:09:19Z",
+        "_id": "IbMFdPRg2DlP9ouOMxWDI7",
+        "_rev": "PaYypp5eJ3aGfBF2x7fHcd",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:08:47Z",
+        "category": [
+            "food"
+        ],
+        "title": "Pro Chef Turns Canned Seafood Into 4 Meals For Under $12 | Epicurious - YouTube",
+        "url": "https://www.youtube.com/watch?v=kd2271nZRaU"
+    },
+    {
+        "_createdAt": "2021-08-29T18:30:32Z",
+        "_id": "IbMFdPRg2DlP9ouOMxcsMv",
+        "_rev": "800nO8Bf3aC80gW7yDEmj2",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:16:56Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "How To Make Chrome Extensions - YouTube",
+        "url": "https://www.youtube.com/watch?v=Ipa58NVGs_c"
+    },
+    {
+        "_createdAt": "2021-08-29T18:30:40Z",
+        "_id": "QTJu4cxm72iant1E9AFfpf",
+        "_rev": "800nO8Bf3aC80gW7yDEoKI",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:17:07Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "How to Build a Chrome Extension | CSS-Tricks",
+        "url": "https://css-tricks.com/how-to-build-a-chrome-extension/"
+    },
+    {
+        "_createdAt": "2021-08-29T18:30:46Z",
+        "_id": "8mhCAmVdkgn2z5wVMulsNb",
+        "_rev": "800nO8Bf3aC80gW7yDEppi",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:17:20Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "How to Create a Chrome Extension in 10 Minutes Flat - SitePoint",
+        "url": "https://www.sitepoint.com/create-chrome-extension-10-minutes-flat/"
+    },
+    {
+        "_createdAt": "2021-08-29T18:30:54Z",
+        "_id": "QTJu4cxm72iant1E9AFh0p",
+        "_rev": "800nO8Bf3aC80gW7yDErx5",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:17:29Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "How to Make a Chrome Extension?",
+        "url": "https://hackr.io/blog/how-to-make-a-chrome-extension"
+    },
+    {
+        "_createdAt": "2021-08-29T18:30:59Z",
+        "_id": "QTJu4cxm72iant1E9AFhnb",
+        "_rev": "800nO8Bf3aC80gW7yDEtGp",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:17:40Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "How to Make a Chrome Extension",
+        "url": "https://thoughtbot.com/blog/how-to-make-a-chrome-extension"
+    },
+    {
+        "_createdAt": "2021-08-29T18:35:09Z",
+        "_id": "8mhCAmVdkgn2z5wVMumOr5",
+        "_rev": "8mhCAmVdkgn2z5wVMumOm6",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-29T18:35:09Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Exploring Passive House Design - 90% Energy Savings! - YouTube",
+        "url": "https://www.youtube.com/watch?v=secB3R0sIYU"
+    },
+    {
+        "_createdAt": "2021-08-29T18:43:52Z",
+        "_id": "QTJu4cxm72iant1E9AGgfV",
+        "_rev": "PaYypp5eJ3aGfBF2x7fJxH",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:09:05Z",
+        "category": [
+            "food"
+        ],
+        "title": "Forget the Set: All You Need Is A 10-Inch Pan | Game Changers - YouTube",
+        "url": "https://www.youtube.com/watch?v=ghNbWKaiNuI"
+    },
+    {
+        "_createdAt": "2021-08-29T19:20:57Z",
+        "_id": "IbMFdPRg2DlP9ouOMxi3dx",
+        "_rev": "dWFfJLCovGPkcwYl20fez7",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:09:16Z",
+        "category": [
+            "music"
+        ],
+        "title": "Certified Freak Hoe feat. King Saadi - YouTube",
+        "url": "https://www.youtube.com/watch?v=sX13TR72RHo"
+    },
+    {
+        "_createdAt": "2021-08-29T19:26:59Z",
+        "_id": "8mhCAmVdkgn2z5wVMuscXh",
+        "_rev": "PaYypp5eJ3aGfBF2x7fLtP",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:09:26Z",
+        "category": [
+            "music"
+        ],
+        "title": "Slam - Vapour - YouTube",
+        "url": "https://www.youtube.com/watch?v=XGYIQuWTgaI"
+    },
+    {
+        "_createdAt": "2021-08-29T19:29:45Z",
+        "_id": "IbMFdPRg2DlP9ouOMxipgf",
+        "_rev": "PaYypp5eJ3aGfBF2x7fQg3",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:09:48Z",
+        "category": [
+            "food"
+        ],
+        "title": "Easier, Tastier, Prettier - Galettes - YouTube",
+        "url": "https://www.youtube.com/watch?v=bp6V8zwEwGE"
+    },
+    {
+        "_createdAt": "2021-08-29T19:33:07Z",
+        "_id": "8mhCAmVdkgn2z5wVMutKBw",
+        "_rev": "dWFfJLCovGPkcwYl20g9PZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:10:17Z",
+        "category": [
+            "food"
+        ],
+        "title": "7 Underrated Kitchen Tools - YouTube",
+        "url": "https://www.youtube.com/watch?v=47kiYyOaSec"
+    },
+    {
+        "_createdAt": "2021-08-29T20:02:26Z",
+        "_id": "8mhCAmVdkgn2z5wVMuxSNX",
+        "_rev": "dWFfJLCovGPkcwYl20gCg5",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:10:28Z",
+        "category": [
+            "food"
+        ],
+        "title": "Huevos Rancheros, a simple yet delicious Mexican breakfast. - YouTube",
+        "url": "https://www.youtube.com/watch?v=B-75GInlzdo"
+    },
+    {
+        "_createdAt": "2021-08-29T20:58:35Z",
+        "_id": "QTJu4cxm72iant1E9AQzqX",
+        "_rev": "PaYypp5eJ3aGfBF2x7fn8Z",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:10:44Z",
+        "category": [
+            "food"
+        ],
+        "title": "Pad Thai | Simple no-wok recipe, cooks in 3 minutes - YouTube",
+        "url": "https://www.youtube.com/watch?v=puHSU9ZaZPY"
+    },
+    {
+        "_createdAt": "2021-08-29T21:34:10Z",
+        "_id": "QTJu4cxm72iant1E9ASvQD",
+        "_rev": "dWFfJLCovGPkcwYl23Cmbt",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:17:49Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "How To Build A Chrome Extension | NEW Manifest Version 3 | (2021 Web Development) - YouTube",
+        "url": "https://www.youtube.com/watch?v=5E94S1J2vBI"
+    },
+    {
+        "_createdAt": "2021-08-29T21:34:33Z",
+        "_id": "8mhCAmVdkgn2z5wVMv8cAj",
+        "_rev": "8mhCAmVdkgn2z5wVMv8c5k",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-29T21:34:33Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Complete Beginners Guide to JavaScript Service Workers (2021 Web Development) - YouTube",
+        "url": "https://www.youtube.com/watch?v=wdvsbpKv5fI"
+    },
+    {
+        "_createdAt": "2021-08-29T21:41:13Z",
+        "_id": "8mhCAmVdkgn2z5wVMv9UGs",
+        "_rev": "PaYypp5eJ3aGfBF2x7foCl",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:10:59Z",
+        "category": [
+            "food"
+        ],
+        "title": "PASTA ALLA GRICIA: the most UNDERRATED of the classic Roman Pastas - YouTube",
+        "url": "https://www.youtube.com/watch?v=SA3pkTgPBdg"
+    },
+    {
+        "_createdAt": "2021-08-29T21:44:37Z",
+        "_id": "8mhCAmVdkgn2z5wVMv9r1J",
+        "_rev": "800nO8Bf3aC80gW7yActhW",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:11:07Z",
+        "category": [
+            "food"
+        ],
+        "title": "how to make SPAGHETTI AGLIO E OLIO like an ITALIAN - YouTube",
+        "url": "https://www.youtube.com/watch?v=a0EyzJsf1eo"
+    },
+    {
+        "_createdAt": "2021-08-29T21:50:28Z",
+        "_id": "IbMFdPRg2DlP9ouOMy0eLD",
+        "_rev": "dWFfJLCovGPkcwYl20gNVR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:11:15Z",
+        "category": [
+            "food"
+        ],
+        "title": "how to make REAL CACIO E PEPE like they do in ROME - YouTube",
+        "url": "https://www.youtube.com/watch?v=AztjQDIi3Sw"
+    },
+    {
+        "_createdAt": "2021-08-29T21:54:46Z",
+        "_id": "8mhCAmVdkgn2z5wVMvBOHC",
+        "_rev": "PaYypp5eJ3aGfBF2x7frgV",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:11:24Z",
+        "category": [
+            "food"
+        ],
+        "title": "PASTA ALLA GRICIA: the most UNDERRATED of the classic Roman Pastas - YouTube",
+        "url": "https://www.youtube.com/watch?v=SA3pkTgPBdg"
+    },
+    {
+        "_createdAt": "2021-08-30T12:51:25Z",
+        "_id": "dWFfJLCovGPkcwYl20TR0H",
+        "_rev": "800nO8Bf3aC80gW7yAcwu2",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T14:11:39Z",
+        "category": [
+            "food"
+        ],
+        "title": "Pizza napoletana fatta in casa: la ricetta di Davide Civitiello - YouTube",
+        "url": "https://www.youtube.com/watch?v=Cq90lUQUCUo"
+    },
+    {
+        "_createdAt": "2021-08-30T13:02:03Z",
+        "_id": "PaYypp5eJ3aGfBF2x7VqW7",
+        "_rev": "PaYypp5eJ3aGfBF2x7VqTf",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T13:02:03Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "How To Redirect Netlify Functions To a Simpler Path | James Q Quick",
+        "url": "https://www.jamesqquick.com/blog/how-to-redirect-netlify-functions-to-a-simpler-path"
+    },
+    {
+        "_createdAt": "2021-08-30T13:04:59Z",
+        "_id": "800nO8Bf3aC80gW7yARQVa",
+        "_rev": "800nO8Bf3aC80gW7yARQSf",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T13:04:59Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "decodeURIComponent() - JavaScript | MDN",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent"
+    },
+    {
+        "_createdAt": "2021-08-30T13:13:10Z",
+        "_id": "dWFfJLCovGPkcwYl20XDmT",
+        "_rev": "GS3e3canNbyDOHjTOTd2FQ",
+        "_type": "bookmark",
+        "_updatedAt": "2022-02-17T00:50:35Z",
+        "category": [
+            "DONE"
+        ],
+        "title": "PASS: a Password Manager &amp; Two Factor Authentication (OTP) with no Cell Phone - YouTube",
+        "url": "https://www.youtube.com/watch?v=sVkURNfxPd4"
+    },
+    {
+        "_createdAt": "2021-08-30T13:13:35Z",
+        "_id": "800nO8Bf3aC80gW7yATz8t",
+        "_rev": "800nO8Bf3aC80gW7yATz5y",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T13:13:35Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Pass - The Standard Unix Password Manager - YouTube",
+        "url": "https://www.youtube.com/watch?v=hlRQTj1D9LA"
+    },
+    {
+        "_createdAt": "2021-08-30T13:15:01Z",
+        "_id": "dWFfJLCovGPkcwYl20XTvx",
+        "_rev": "dWFfJLCovGPkcwYl20XTtB",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T13:15:01Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Trump&#39;s Biggest Failure - YouTube",
+        "url": "https://www.youtube.com/watch?v=hhMAt3BluAU"
+    },
+    {
+        "_createdAt": "2021-08-30T13:15:16Z",
+        "_id": "800nO8Bf3aC80gW7yAUDmo",
+        "_rev": "800nO8Bf3aC80gW7yAUDjt",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T13:15:16Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Jim Keller: The Future of Computing, AI, Life, and Consciousness | Lex Fridman Podcast #162 - YouTube",
+        "url": "https://www.youtube.com/watch?v=G4hL5Om4IJ4"
+    },
+    {
+        "_createdAt": "2021-08-30T13:15:29Z",
+        "_id": "dWFfJLCovGPkcwYl20XXs5",
+        "_rev": "dWFfJLCovGPkcwYl20XXpJ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T13:15:29Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Sidebar with Alex Jones - Viva &amp; Barnes LIVE! - YouTube",
+        "url": "https://www.youtube.com/watch?v=bBdMnPq6BDQ"
+    },
+    {
+        "_createdAt": "2021-08-30T13:34:21Z",
+        "_id": "dWFfJLCovGPkcwYl20aBHR",
+        "_rev": "dWFfJLCovGPkcwYl20aBEf",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T13:34:21Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Why did YouTube censor discussion of Ivermectin? | Bret Weinstein and Lex Fridman - YouTube",
+        "url": "https://www.youtube.com/watch?v=AfjrpjqdQxI"
+    },
+    {
+        "_createdAt": "2021-08-30T15:05:00Z",
+        "_id": "dWFfJLCovGPkcwYl20nFFt",
+        "_rev": "dWFfJLCovGPkcwYl20nFD7",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T15:05:00Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Serverless Functions and TypeScript on Netlify (with Tomasz Łakomy) — Learn With Jason - YouTube",
+        "url": "https://www.youtube.com/watch?v=Tgyi4H6BcI4"
+    },
+    {
+        "_createdAt": "2021-08-30T15:52:50Z",
+        "_id": "PaYypp5eJ3aGfBF2x7rMhz",
+        "_rev": "dWFfJLCovGPkcwYl23DHnV",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:20:49Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "I Still Burn CDs, DVDs and Blu Ray (And You Should Too!) - YouTube",
+        "url": "https://www.youtube.com/watch?v=DCw0oiUa2SU"
+    },
+    {
+        "_createdAt": "2021-08-30T15:53:45Z",
+        "_id": "800nO8Bf3aC80gW7yAt0Rx",
+        "_rev": "PaYypp5eJ3aGfBF2x7vwwB",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T16:24:38Z",
+        "category": [
+            "food"
+        ],
+        "title": "Mediterranean Chickpea Salad - YouTube",
+        "url": "https://www.youtube.com/watch?v=PrJH8QFmtFE"
+    },
+    {
+        "_createdAt": "2021-08-30T15:53:56Z",
+        "_id": "PaYypp5eJ3aGfBF2x7rTwd",
+        "_rev": "dWFfJLCovGPkcwYl20zymX",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T16:24:48Z",
+        "category": [
+            "food"
+        ],
+        "title": "Why I Always Have a Can of Chickpeas - YouTube",
+        "url": "https://www.youtube.com/watch?v=U9Y1Gsjj5iU"
+    },
+    {
+        "_createdAt": "2021-08-30T15:54:25Z",
+        "_id": "PaYypp5eJ3aGfBF2x7rWJj",
+        "_rev": "dWFfJLCovGPkcwYl2102XZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T16:24:57Z",
+        "category": [
+            "food"
+        ],
+        "title": "Classic Spanish Chickpea Salad | Refreshing &amp; Packed with Flavor - YouTube",
+        "url": "https://www.youtube.com/watch?v=QpCc40YvlYs"
+    },
+    {
+        "_createdAt": "2021-08-30T15:54:35Z",
+        "_id": "800nO8Bf3aC80gW7yAt8GZ",
+        "_rev": "PaYypp5eJ3aGfBF2x7w94p",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T16:25:07Z",
+        "category": [
+            "food"
+        ],
+        "title": "High Protein Vegetarian Meal | Chickpea Salad Sandwich - YouTube",
+        "url": "https://www.youtube.com/watch?v=Zd5dcEmJ_e4"
+    },
+    {
+        "_createdAt": "2021-08-30T15:54:47Z",
+        "_id": "PaYypp5eJ3aGfBF2x7rZsN",
+        "_rev": "dWFfJLCovGPkcwYl210Bqb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T16:25:15Z",
+        "category": [
+            "food"
+        ],
+        "title": "Vegan Chickpea \"Tuna\" Salad - YouTube",
+        "url": "https://www.youtube.com/watch?v=BZ-uwc0AS7g"
+    },
+    {
+        "_createdAt": "2021-08-30T15:55:25Z",
+        "_id": "800nO8Bf3aC80gW7yAtFnf",
+        "_rev": "800nO8Bf3aC80gW7yAtFkk",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T15:55:25Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Github Copilot MAKES A CLI GAME IN GOLANG FROM SCRATCH?!?! - YouTube",
+        "url": "https://www.youtube.com/watch?v=Xw_qbJp52cY"
+    },
+    {
+        "_createdAt": "2021-08-30T15:55:38Z",
+        "_id": "800nO8Bf3aC80gW7yAtI0s",
+        "_rev": "800nO8Bf3aC80gW7yAtHxx",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T15:55:38Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Freedoom gameplay — open source gaming on Linux - YouTube",
+        "url": "https://www.youtube.com/watch?v=L1zZ7rG5lws"
+    },
+    {
+        "_createdAt": "2021-08-30T15:56:04Z",
+        "_id": "800nO8Bf3aC80gW7yAtKvs",
+        "_rev": "800nO8Bf3aC80gW7yAtKsx",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T15:56:04Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "How To Actually Use The Syntax Of Vimwiki - YouTube",
+        "url": "https://www.youtube.com/watch?v=CgjslxZM_EI"
+    },
+    {
+        "_createdAt": "2021-08-30T15:56:12Z",
+        "_id": "dWFfJLCovGPkcwYl20uZNB",
+        "_rev": "dWFfJLCovGPkcwYl20uZKP",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T15:56:12Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "I Should Have Just Used Vimwiki From The Start - YouTube",
+        "url": "https://www.youtube.com/watch?v=vBJj7YMVn6I"
+    },
+    {
+        "_createdAt": "2021-08-30T15:56:34Z",
+        "_id": "800nO8Bf3aC80gW7yAtNZM",
+        "_rev": "800nO8Bf3aC80gW7yAtNWR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T15:56:34Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "My Developer Workflow - How I use i3, tmux, and vim - YouTube",
+        "url": "https://www.youtube.com/watch?v=bdumjiHabhQ"
+    },
+    {
+        "_createdAt": "2021-08-30T16:38:14Z",
+        "_id": "dWFfJLCovGPkcwYl21510r",
+        "_rev": "dWFfJLCovGPkcwYl2150y5",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T16:38:14Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Getting Started With Xmonad - YouTube",
+        "url": "https://www.youtube.com/watch?v=3noK4GTmyMw"
+    },
+    {
+        "_createdAt": "2021-08-30T16:55:56Z",
+        "_id": "dWFfJLCovGPkcwYl217Bmj",
+        "_rev": "dWFfJLCovGPkcwYl217Bjx",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T16:55:56Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Using Typescript in Node.js - YouTube",
+        "url": "https://www.youtube.com/watch?v=1UcLoOD1lRM"
+    },
+    {
+        "_createdAt": "2021-08-30T17:07:51Z",
+        "_id": "800nO8Bf3aC80gW7yB7PLg",
+        "_rev": "800nO8Bf3aC80gW7yB7PIl",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T17:07:51Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Typescript vs Javascript - YouTube",
+        "url": "https://www.youtube.com/watch?v=D6or2gdrHRE"
+    },
+    {
+        "_createdAt": "2021-08-30T17:09:41Z",
+        "_id": "PaYypp5eJ3aGfBF2x849xn",
+        "_rev": "dWFfJLCovGPkcwYl228b89",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:03:44Z",
+        "category": [
+            "food"
+        ],
+        "title": "Chicken Paprikash - Hungarian Chicken Stew - Food Wishes - YouTube",
+        "url": "https://www.youtube.com/watch?v=_U6Eb-PoTNo"
+    },
+    {
+        "_createdAt": "2021-08-30T17:09:51Z",
+        "_id": "dWFfJLCovGPkcwYl218aiz",
+        "_rev": "dWFfJLCovGPkcwYl228cCj",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:03:55Z",
+        "category": [
+            "food"
+        ],
+        "title": "Easy Pressure Cooker Chicken Chile Verde | Kenji&#39;s Cooking Show - YouTube",
+        "url": "https://www.youtube.com/watch?v=dRRTUNaXHdQ"
+    },
+    {
+        "_createdAt": "2021-08-30T17:10:05Z",
+        "_id": "PaYypp5eJ3aGfBF2x84GPP",
+        "_rev": "800nO8Bf3aC80gW7yC8mng",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:04:03Z",
+        "category": [
+            "food"
+        ],
+        "title": "Chicken Spaghetti - Food Wishes - Chicken Pasta Sauce Recipe - YouTube",
+        "url": "https://www.youtube.com/watch?v=O56qgx1iQHc"
+    },
+    {
+        "_createdAt": "2021-08-30T17:10:17Z",
+        "_id": "PaYypp5eJ3aGfBF2x84INz",
+        "_rev": "800nO8Bf3aC80gW7yC8n87",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:04:10Z",
+        "category": [
+            "food"
+        ],
+        "title": "THE BEST LEMON GARLIC CHICKEN | SAM THE COOKING GUY - YouTube",
+        "url": "https://www.youtube.com/watch?v=j0T9TN7_HII"
+    },
+    {
+        "_createdAt": "2021-08-30T18:07:40Z",
+        "_id": "800nO8Bf3aC80gW7yBEuNE",
+        "_rev": "PaYypp5eJ3aGfBF2x8x6MR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:04:18Z",
+        "category": [
+            "food"
+        ],
+        "title": "The Food Lab: How to Roast the Best Potatoes of Your Life - YouTube",
+        "url": "https://www.youtube.com/watch?v=argKpeiKFfo"
+    },
+    {
+        "_createdAt": "2021-08-30T18:56:56Z",
+        "_id": "PaYypp5eJ3aGfBF2x8GezP",
+        "_rev": "PaYypp5eJ3aGfBF2x8Gewx",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T18:56:56Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "The Best Privacy Coins - YouTube",
+        "url": "https://www.youtube.com/watch?v=U91PSD1BGVs"
+    },
+    {
+        "_createdAt": "2021-08-30T19:08:31Z",
+        "_id": "PaYypp5eJ3aGfBF2x8IY9X",
+        "_rev": "800nO8Bf3aC80gW7yC8oM1",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:04:27Z",
+        "category": [
+            "food"
+        ],
+        "title": "PASTA SALAD 3 WAYS (Literally The Best Pasta Salads I&#39;ve Ever Had) - YouTube",
+        "url": "https://www.youtube.com/watch?v=0lQD-SnN57Y"
+    },
+    {
+        "_createdAt": "2021-08-30T19:13:00Z",
+        "_id": "PaYypp5eJ3aGfBF2x8IwC7",
+        "_rev": "dWFfJLCovGPkcwYl228eyj",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:04:36Z",
+        "category": [
+            "food"
+        ],
+        "title": "The 1 Dollar Sweet and Sour Chicken | But Cheaper - YouTube",
+        "url": "https://www.youtube.com/watch?v=xyuJDMsfew0"
+    },
+    {
+        "_createdAt": "2021-08-30T20:05:16Z",
+        "_id": "PaYypp5eJ3aGfBF2x8O72V",
+        "_rev": "PaYypp5eJ3aGfBF2x8O703",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T20:05:16Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Getting started with the Kitchen Sink Studio - YouTube",
+        "url": "https://www.youtube.com/watch?v=woA5MKmARNU"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:22Z",
+        "_id": "PaYypp5eJ3aGfBF2x8U73H",
+        "_rev": "PaYypp5eJ3aGfBF2x9tBjz",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:21:33Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Free Mono Case Fonts",
+        "url": "https://www.free-fonts.com/mono-case"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:26Z",
+        "_id": "PaYypp5eJ3aGfBF2x8U7KR",
+        "_rev": "800nO8Bf3aC80gW7yDFZMj",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:21:44Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Free Granat Mono Case Fonts",
+        "url": "https://www.free-fonts.com/granat-mono-case"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:29Z",
+        "_id": "PaYypp5eJ3aGfBF2x8U7Z9",
+        "_rev": "PaYypp5eJ3aGfBF2x9tEJL",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:21:55Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "typography - font with lowercase e when the font is uppercase - Graphic Design Stack Exchange",
+        "url": "https://graphicdesign.stackexchange.com/questions/100333/font-with-lowercase-e-when-the-font-is-uppercase"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:32Z",
+        "_id": "PaYypp5eJ3aGfBF2x8U807",
+        "_rev": "dWFfJLCovGPkcwYl23DViH",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:22:06Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "google fonts unicase at DuckDuckGo",
+        "url": "https://duckduckgo.com/?q=google+fonts+unicase&amp;t=brave&amp;ia=web"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:34Z",
+        "_id": "dWFfJLCovGPkcwYl21cIA9",
+        "_rev": "800nO8Bf3aC80gW7yDFfog",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:22:18Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Sorry... We&#39;re Closed Font · 1001 Fonts",
+        "url": "https://www.1001fonts.com/sorry-were-closed-font.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:36Z",
+        "_id": "PaYypp5eJ3aGfBF2x8U8Vz",
+        "_rev": "800nO8Bf3aC80gW7yDFj9x",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:22:28Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Unicase Fonts | FontSpace",
+        "url": "https://www.fontspace.com/category/unicase"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:38Z",
+        "_id": "800nO8Bf3aC80gW7yBbMLC",
+        "_rev": "800nO8Bf3aC80gW7yDFkiI",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:22:38Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "The Origin of Teletype Monocase Font – Floodlights and Goalposts",
+        "url": "https://floodlightsandgoalposts.com/2020/06/27/the-origin-of-teletype-monocase-font/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:40Z",
+        "_id": "dWFfJLCovGPkcwYl21cJVN",
+        "_rev": "dWFfJLCovGPkcwYl23DeAb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:22:47Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "google fonts &#39;monocase&#39; -monospace at DuckDuckGo",
+        "url": "https://duckduckgo.com/?q=google+fonts+%27monocase%27+-monospace&amp;t=brave&amp;ia=web"
+    },
+    {
+        "_createdAt": "2021-08-30T21:06:43Z",
+        "_id": "dWFfJLCovGPkcwYl21cK8D",
+        "_rev": "800nO8Bf3aC80gW7yDFngD",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:22:56Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Comic Mono | comic-mono-font",
+        "url": "https://dtinth.github.io/comic-mono-font/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:12:47Z",
+        "_id": "PaYypp5eJ3aGfBF2x8UgHf",
+        "_rev": "PaYypp5eJ3aGfBF2x9tUnf",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:23:55Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Keep your cursor centered vertically on the screen | Vim Tips Wiki | Fandom",
+        "url": "https://vim.fandom.com/wiki/Keep_your_cursor_centered_vertically_on_the_screen"
+    },
+    {
+        "_createdAt": "2021-08-30T21:12:51Z",
+        "_id": "dWFfJLCovGPkcwYl21cxov",
+        "_rev": "PaYypp5eJ3aGfBF2x9tYRD",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:24:15Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "keyboard shortcuts - How to put current line at top/center/bottom of screen in vim? - Unix &amp; Linux Stack Exchange",
+        "url": "https://unix.stackexchange.com/questions/110251/how-to-put-current-line-at-top-center-bottom-of-screen-in-vim"
+    },
+    {
+        "_createdAt": "2021-08-30T21:12:54Z",
+        "_id": "dWFfJLCovGPkcwYl21cyOz",
+        "_rev": "800nO8Bf3aC80gW7yDG1Kp",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:24:29Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "vim zz top of file - Brave Search",
+        "url": "https://search.brave.com/search?q=vim+zz+top+of+file&amp;source=desktop"
+    },
+    {
+        "_createdAt": "2021-08-30T21:12:58Z",
+        "_id": "dWFfJLCovGPkcwYl21czCv",
+        "_rev": "800nO8Bf3aC80gW7yDG3ax",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:24:39Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "how to put the current line under edit on the top of the screen in vim - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/2281696/how-to-put-the-current-line-under-edit-on-the-top-of-the-screen-in-vim"
+    },
+    {
+        "_createdAt": "2021-08-30T21:13:11Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Ui8t",
+        "_rev": "PaYypp5eJ3aGfBF2x8Ui6R",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T21:13:11Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Simple Vim commands you wish you&#39;d known earlier - Stack Overflow",
+        "url": "https://stackoverflow.com/questions/1276403/simple-vim-commands-you-wish-youd-known-earlier"
+    },
+    {
+        "_createdAt": "2021-08-30T21:15:52Z",
+        "_id": "800nO8Bf3aC80gW7yBcDjk",
+        "_rev": "PaYypp5eJ3aGfBF2x9tgaF",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:24:57Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "picom - ArchWiki",
+        "url": "https://wiki.archlinux.org/title/Picom#Usage"
+    },
+    {
+        "_createdAt": "2021-08-30T21:15:59Z",
+        "_id": "PaYypp5eJ3aGfBF2x8UzQF",
+        "_rev": "800nO8Bf3aC80gW7yDGAtS",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:25:08Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Autostarting - ArchWiki",
+        "url": "https://wiki.archlinux.org/title/Autostarting"
+    },
+    {
+        "_createdAt": "2021-08-30T21:16:08Z",
+        "_id": "dWFfJLCovGPkcwYl21dPW9",
+        "_rev": "PaYypp5eJ3aGfBF2x9tkcJ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:25:19Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "picom systemd - Brave Search",
+        "url": "https://search.brave.com/search?q=picom%20systemd&amp;spellcheck=0"
+    },
+    {
+        "_createdAt": "2021-08-30T21:16:12Z",
+        "_id": "800nO8Bf3aC80gW7yBcFI5",
+        "_rev": "PaYypp5eJ3aGfBF2x9tn4J",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:25:27Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "My Manjaro i3 setup - Tech Knowledge Base - jaytaala.com Confluence",
+        "url": "https://confluence.jaytaala.com/display/TKB/My+Manjaro+i3+setup"
+    },
+    {
+        "_createdAt": "2021-08-30T21:23:23Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VgU3",
+        "_rev": "800nO8Bf3aC80gW7yDIf3Q",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:27:57Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "task based ui - Brave Search",
+        "url": "https://search.brave.com/search?q=task+based+ui&amp;source=desktop"
+    },
+    {
+        "_createdAt": "2021-08-30T21:23:30Z",
+        "_id": "dWFfJLCovGPkcwYl21eGwX",
+        "_rev": "800nO8Bf3aC80gW7yDIim3",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:28:06Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Decomposing CRUD to a Task Based UI - CodeOpinion",
+        "url": "https://codeopinion.com/decomposing-crud-to-a-task-based-ui/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:23:51Z",
+        "_id": "800nO8Bf3aC80gW7yBd6P7",
+        "_rev": "800nO8Bf3aC80gW7yDIotZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:28:16Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Opportunities and Pitfalls of Event-driven Utopia - YouTube",
+        "url": "https://www.youtube.com/watch?v=jjYAZ0DPLNM"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:06Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VlLb",
+        "_rev": "PaYypp5eJ3aGfBF2x9w3zr",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:28:31Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Designing Events-First Microservices - YouTube",
+        "url": "https://www.youtube.com/watch?v=1hwuWmMNT4c"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:12Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VlfD",
+        "_rev": "800nO8Bf3aC80gW7yDJG6x",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:29:11Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Building microservices with event sourcing and CQRS - YouTube",
+        "url": "https://www.youtube.com/watch?v=A0goyZ9F4bg"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:21Z",
+        "_id": "800nO8Bf3aC80gW7yBd9qE",
+        "_rev": "PaYypp5eJ3aGfBF2x9wJZn",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:29:21Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Greg Young — A Decade of DDD, CQRS, Event Sourcing - YouTube",
+        "url": "https://www.youtube.com/watch?v=LDW0QWie21s"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:25Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VmtD",
+        "_rev": "800nO8Bf3aC80gW7yDJOG0",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:29:43Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "7 Reasons why your microservices should use Event Sourcing &amp; CQRS - Hugh McKee - YouTube",
+        "url": "https://www.youtube.com/watch?v=wBvH7foXXUY"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:44Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vorn",
+        "_rev": "800nO8Bf3aC80gW7yDJPoL",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:29:52Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "The Many Meanings of Event-Driven Architecture • Martin Fowler • GOTO 2017 - YouTube",
+        "url": "https://www.youtube.com/watch?v=STKCRSUsyP0"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:49Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VpLD",
+        "_rev": "PaYypp5eJ3aGfBF2x8VpIl",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T21:24:49Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "David Khourshid - Everything is an Actor - YouTube",
+        "url": "https://www.youtube.com/watch?v=NTfPtYJORck"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:49Z",
+        "_id": "drafts.PaYypp5eJ3aGfBF2x8VpLD",
+        "_rev": "7ax8m7-5mj-bsl-vqc-naesqgjam",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:30:06Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "David Khourshid - Everything is an Actor - YouTube",
+        "url": "https://www.youtube.com/watch?v=NTfPtYJORck"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:55Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vq3L",
+        "_rev": "800nO8Bf3aC80gW7yDJV8E",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:30:36Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Is a REST API with CQRS Possible? - YouTube",
+        "url": "https://www.youtube.com/watch?v=6XO6vSiioWE&amp;list=PLThyvG1mlMznwqEruP2y0jm-tX74rvnK4&amp;index=12"
+    },
+    {
+        "_createdAt": "2021-08-30T21:24:59Z",
+        "_id": "dWFfJLCovGPkcwYl21eOPp",
+        "_rev": "dWFfJLCovGPkcwYl23HSVt",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:30:57Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "5 Design Patterns Every Engineer Should Know - YouTube",
+        "url": "https://www.youtube.com/watch?v=FLmBqI3IKMA"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:03Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vqsp",
+        "_rev": "dWFfJLCovGPkcwYl23HUDJ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:31:06Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "REST APIs for Microservices? Beware! - YouTube",
+        "url": "https://www.youtube.com/watch?v=_4gyR6CBkUE"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:10Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VrR9",
+        "_rev": "PaYypp5eJ3aGfBF2x9wcCV",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:31:25Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Projections in Event Sourcing: Build ANY model you want! - YouTube",
+        "url": "https://www.youtube.com/watch?v=bTRjO6JK4Ws"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:15Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vrpf",
+        "_rev": "PaYypp5eJ3aGfBF2x9wdrT",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:31:34Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Task-Based User Interfaces – walkerjordan",
+        "url": "https://walkerjordan.com/task-based-user-interfaces/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:18Z",
+        "_id": "dWFfJLCovGPkcwYl21ePcj",
+        "_rev": "PaYypp5eJ3aGfBF2x9wfP5",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:31:42Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Task Based User Interfaces – Kyle Cordes",
+        "url": "https://kylecordes.com/2014/task-based-user-interfaces"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:20Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vs1v",
+        "_rev": "PaYypp5eJ3aGfBF2x9whmB",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:31:53Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "What is Task Based UI | Tech blog!!",
+        "url": "https://balazblogspot.blogspot.com/2018/07/what-is-task-based-ui.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:21Z",
+        "_id": "dWFfJLCovGPkcwYl21ePyv",
+        "_rev": "dWFfJLCovGPkcwYl23HkBh",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:32:19Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Task-Based UI | CQRS",
+        "url": "https://cqrs.wordpress.com/documents/task-based-ui/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:23Z",
+        "_id": "800nO8Bf3aC80gW7yBdIjz",
+        "_rev": "800nO8Bf3aC80gW7yDJoZv",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:32:26Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "What is the CQRS pattern? - Azure Architecture Center | Microsoft Docs",
+        "url": "https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:25Z",
+        "_id": "dWFfJLCovGPkcwYl21eQeX",
+        "_rev": "PaYypp5eJ3aGfBF2x9wmFD",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:32:33Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Event-Carried State Transfer - Brave Search",
+        "url": "https://search.brave.com/search?q=Event-Carried+State+Transfer&amp;source=desktop"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:29Z",
+        "_id": "dWFfJLCovGPkcwYl21eRHN",
+        "_rev": "PaYypp5eJ3aGfBF2x9wnrj",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:32:41Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Business Model Canvas - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Business_Model_Canvas"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:36Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VtUd",
+        "_rev": "PaYypp5eJ3aGfBF2x9wpRn",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:32:49Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "XState Visualizer",
+        "url": "https://xstate.js.org/viz/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:42Z",
+        "_id": "dWFfJLCovGPkcwYl21eSqT",
+        "_rev": "dWFfJLCovGPkcwYl23HqMX",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:32:57Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Tutorials | XState Docs",
+        "url": "https://xstate.js.org/docs/about/tutorials.html#videos"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:46Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vu0V",
+        "_rev": "PaYypp5eJ3aGfBF2x9ws3b",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:33:05Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Serverless Pros &amp; Cons | Serverless Handbook for Frontend Engineers",
+        "url": "https://serverlesshandbook.dev/serverless-pros-cons/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:50Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vudj",
+        "_rev": "dWFfJLCovGPkcwYl23Hsgn",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:33:13Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "darrylhebbes/awesome_xstate: Everything awesome about XState",
+        "url": "https://github.com/darrylhebbes/awesome_xstate"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:53Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vv79",
+        "_rev": "dWFfJLCovGPkcwYl23HuOD",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:33:21Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Sketch.systems",
+        "url": "https://sketch.systems/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:25:57Z",
+        "_id": "PaYypp5eJ3aGfBF2x8VvOJ",
+        "_rev": "800nO8Bf3aC80gW7yDJzAm",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:33:31Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Sketch.systems - My Awesome Sketch, a sketch by wommy",
+        "url": "https://sketch.systems/wommy/sketch/new"
+    },
+    {
+        "_createdAt": "2021-08-30T21:26:02Z",
+        "_id": "dWFfJLCovGPkcwYl21eUET",
+        "_rev": "800nO8Bf3aC80gW7yDK0j7",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:33:40Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Welcome to the world of Statecharts - Statecharts",
+        "url": "https://statecharts.dev/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:26:06Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Vvz5",
+        "_rev": "800nO8Bf3aC80gW7yDK5oP",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:34:15Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "State - Glossary - Statecharts",
+        "url": "https://statecharts.dev/glossary/state.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:21Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Wr2l",
+        "_rev": "PaYypp5eJ3aGfBF2x9x3zz",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:34:36Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "User Interface - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/User_Interface"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:23Z",
+        "_id": "dWFfJLCovGPkcwYl21faI1",
+        "_rev": "PaYypp5eJ3aGfBF2x9x4zH",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:34:44Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Package Management - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Package_Management"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:25Z",
+        "_id": "PaYypp5eJ3aGfBF2x8WrA7",
+        "_rev": "dWFfJLCovGPkcwYl23I9Vt",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:34:52Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "PRoot - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/PRoot"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:27Z",
+        "_id": "800nO8Bf3aC80gW7yBeTg4",
+        "_rev": "PaYypp5eJ3aGfBF2x9x7zb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:34:59Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Recover a broken environment - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Recover_a_broken_environment"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:29Z",
+        "_id": "dWFfJLCovGPkcwYl21famX",
+        "_rev": "dWFfJLCovGPkcwYl23IHhZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:35:53Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "All pages - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Special:AllPages"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:31Z",
+        "_id": "dWFfJLCovGPkcwYl21faxd",
+        "_rev": "dWFfJLCovGPkcwYl23IJ2n",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:36:01Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Touch Keyboard - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Touch_Keyboard"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:36Z",
+        "_id": "800nO8Bf3aC80gW7yBeUiI",
+        "_rev": "800nO8Bf3aC80gW7yDKNnb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:36:11Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Terminal Settings - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Terminal_Settings"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:39Z",
+        "_id": "dWFfJLCovGPkcwYl21fbdF",
+        "_rev": "dWFfJLCovGPkcwYl23IMDl",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:36:20Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Differences from Linux - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Differences_from_Linux"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:41Z",
+        "_id": "PaYypp5eJ3aGfBF2x8WsGl",
+        "_rev": "PaYypp5eJ3aGfBF2x9xMf9",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:36:44Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Software - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Software"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:44Z",
+        "_id": "PaYypp5eJ3aGfBF2x8WsfH",
+        "_rev": "800nO8Bf3aC80gW7yDKVnt",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:36:53Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Search results for \"permission\" - Termux Wiki",
+        "url": "https://wiki.termux.com/index.php?search=permission&amp;go=Go"
+    },
+    {
+        "_createdAt": "2021-08-30T21:35:46Z",
+        "_id": "800nO8Bf3aC80gW7yBeVnR",
+        "_rev": "dWFfJLCovGPkcwYl23IU8n",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:37:01Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Internal and external storage - Termux Wiki",
+        "url": "https://wiki.termux.com/wiki/Internal_and_external_storage"
+    },
+    {
+        "_createdAt": "2021-08-30T21:41:07Z",
+        "_id": "dWFfJLCovGPkcwYl21g8ph",
+        "_rev": "dWFfJLCovGPkcwYl23IWHx",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:37:10Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Home | Linux Journey",
+        "url": "https://linuxjourney.com/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:41:08Z",
+        "_id": "800nO8Bf3aC80gW7yBf2QY",
+        "_rev": "PaYypp5eJ3aGfBF2x9xRKR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:37:17Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "BashGuide - Greg&#39;s Wiki",
+        "url": "http://mywiki.wooledge.org/BashGuide"
+    },
+    {
+        "_createdAt": "2021-08-30T21:41:09Z",
+        "_id": "800nO8Bf3aC80gW7yBf2f9",
+        "_rev": "PaYypp5eJ3aGfBF2x9xSTX",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:37:24Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Bash Guide for Beginners",
+        "url": "https://tldp.org/LDP/Bash-Beginners-Guide/html/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:41:10Z",
+        "_id": "dWFfJLCovGPkcwYl21g93Z",
+        "_rev": "PaYypp5eJ3aGfBF2x9xTVH",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:37:32Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "The Bash Hackers Wiki [Bash Hackers Wiki (DEV 20200708T2203)]",
+        "url": "https://wiki-dev.bash-hackers.org/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:43:09Z",
+        "_id": "dWFfJLCovGPkcwYl21gJq9",
+        "_rev": "PaYypp5eJ3aGfBF2x9xbUV",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:38:13Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Taskwarrior - What&#39;s next?",
+        "url": "https://taskwarrior.org/docs/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:45:56Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Xypr",
+        "_rev": "800nO8Bf3aC80gW7yDKl6g",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:38:20Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "A Dive into Taskwarrior Ecosystem with Tomas Babej - YouTube",
+        "url": "https://www.youtube.com/watch?v=tijnc65soEI"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:25Z",
+        "_id": "dWFfJLCovGPkcwYl21gzMb",
+        "_rev": "dWFfJLCovGPkcwYl23IkIH",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:38:28Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Taskwarrior with Tomas Babej - YouTube",
+        "url": "https://www.youtube.com/watch?v=gCat4d634YA"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:28Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Y1FP",
+        "_rev": "PaYypp5eJ3aGfBF2x9xkp5",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:39:14Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Productivity Setup with Vimwiki, Taskwarrior and MDwiki: Part 1 - YouTube",
+        "url": "https://www.youtube.com/watch?v=A1YgbAp5YRc"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:29Z",
+        "_id": "800nO8Bf3aC80gW7yBfqfV",
+        "_rev": "PaYypp5eJ3aGfBF2x9xqYZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:40:07Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Productivity Setup with Vimwiki, Part 2: Taskwarrior Integration - YouTube",
+        "url": "https://www.youtube.com/watch?v=UuHJloiDErM"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:32Z",
+        "_id": "800nO8Bf3aC80gW7yBfrBc",
+        "_rev": "PaYypp5eJ3aGfBF2x9xtCp",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:40:23Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "How To Use VIT The Curses Based Front End To Taskwarrior - YouTube",
+        "url": "https://www.youtube.com/watch?v=wY3DJVSWdeI"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:34Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Y1bT",
+        "_rev": "800nO8Bf3aC80gW7yDL8BA",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:40:35Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Taskwarrior - Workflow Examples",
+        "url": "https://taskwarrior.org/docs/workflow.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:35Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Y1ip",
+        "_rev": "dWFfJLCovGPkcwYl23J4L7",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:40:44Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Getting Things Done with Task Warrior - Chariot Solutions",
+        "url": "https://chariotsolutions.com/blog/post/getting-things-done-with-task-warrior/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:37Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Y1xX",
+        "_rev": "dWFfJLCovGPkcwYl23J5of",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:40:53Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Taskwarrior - Usage Examples",
+        "url": "https://taskwarrior.org/docs/examples.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:38Z",
+        "_id": "800nO8Bf3aC80gW7yBfrtP",
+        "_rev": "800nO8Bf3aC80gW7yDLBwi",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:41:00Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Taskwarrior - Best Practices",
+        "url": "https://taskwarrior.org/docs/best-practices.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:40Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Y395",
+        "_rev": "PaYypp5eJ3aGfBF2x9xzDT",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:41:08Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Taskwarrior - Modify Command",
+        "url": "https://taskwarrior.org/docs/commands/modify.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:46:42Z",
+        "_id": "dWFfJLCovGPkcwYl21h1jd",
+        "_rev": "dWFfJLCovGPkcwYl23J95B",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:41:15Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Taskwarrior - Configuration",
+        "url": "https://taskwarrior.org/docs/configuration.html"
+    },
+    {
+        "_createdAt": "2021-08-30T21:50:48Z",
+        "_id": "PaYypp5eJ3aGfBF2x8YOm7",
+        "_rev": "dWFfJLCovGPkcwYl23JB8n",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:41:33Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Different Ways to Create and Use Bash Aliases in Linux",
+        "url": "https://www.tecmint.com/create-and-use-bash-aliases-in-linux/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:50:49Z",
+        "_id": "800nO8Bf3aC80gW7yBgEdS",
+        "_rev": "800nO8Bf3aC80gW7yDLLh1",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:41:48Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "5 Types Of ZSH Aliases You Should Know · Thorsten Hans",
+        "url": "https://www.thorsten-hans.com/5-types-of-zsh-aliases"
+    },
+    {
+        "_createdAt": "2021-08-30T21:50:51Z",
+        "_id": "dWFfJLCovGPkcwYl21hObF",
+        "_rev": "800nO8Bf3aC80gW7yDLNCR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:41:56Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Command Line Productivity with ZSH Aliases | by Yankee Maharjan | Leapfrog",
+        "url": "https://blog.lftechnology.com/command-line-productivity-with-zsh-aliases-28b7cebfdff9"
+    },
+    {
+        "_createdAt": "2021-08-30T21:50:52Z",
+        "_id": "800nO8Bf3aC80gW7yBgEuy",
+        "_rev": "800nO8Bf3aC80gW7yDLOWB",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:42:03Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Oh My Zsh Custom Aliases",
+        "url": "https://scottwhittaker.net/posts/oh-my-zsh-custom-aliases/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:50:53Z",
+        "_id": "dWFfJLCovGPkcwYl21hOxR",
+        "_rev": "dWFfJLCovGPkcwYl23JIWX",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:42:11Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Creating aliases in zsh | Untitled Blog",
+        "url": "https://www.wesleybevins.com/2020/03/25/creating-zsh-aliases/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:52:52Z",
+        "_id": "800nO8Bf3aC80gW7yBgQV8",
+        "_rev": "800nO8Bf3aC80gW7yDLRrS",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:42:23Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "QuickTile — QuickTile 0.4.1 documentation",
+        "url": "http://ssokolow.com/quicktile/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:52:54Z",
+        "_id": "800nO8Bf3aC80gW7yBgQsU",
+        "_rev": "800nO8Bf3aC80gW7yDLTH2",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:42:32Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "dbeniamine/cheat.sh-vim: A vim plugin to access cheat.sh sheets",
+        "url": "https://github.com/dbeniamine/cheat.sh-vim"
+    },
+    {
+        "_createdAt": "2021-08-30T21:52:56Z",
+        "_id": "dWFfJLCovGPkcwYl21hbyj",
+        "_rev": "800nO8Bf3aC80gW7yDLUam",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:42:38Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "chubin/cheat.sh: the only cheat sheet you need",
+        "url": "https://github.com/chubin/cheat.sh"
+    },
+    {
+        "_createdAt": "2021-08-30T21:53:57Z",
+        "_id": "800nO8Bf3aC80gW7yBgWWo",
+        "_rev": "800nO8Bf3aC80gW7yDLcDi",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:43:07Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Ln Command in Linux (Create Symbolic Links) | Linuxize",
+        "url": "https://linuxize.com/post/how-to-create-symbolic-links-in-linux-using-the-ln-command/#creating-symlinks-to-a-directory"
+    },
+    {
+        "_createdAt": "2021-08-30T21:53:59Z",
+        "_id": "PaYypp5eJ3aGfBF2x8YgDH",
+        "_rev": "800nO8Bf3aC80gW7yDLd7B",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:43:14Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Working with submodules | The GitHub Blog",
+        "url": "https://github.blog/2016-02-01-working-with-submodules/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:54:01Z",
+        "_id": "PaYypp5eJ3aGfBF2x8YgZL",
+        "_rev": "dWFfJLCovGPkcwYl23JVMj",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:43:21Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Git - Submodules",
+        "url": "https://git-scm.com/book/en/v2/Git-Tools-Submodules"
+    },
+    {
+        "_createdAt": "2021-08-30T21:54:02Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Yggh",
+        "_rev": "800nO8Bf3aC80gW7yDLfzG",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:43:28Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Git submodule | Atlassian",
+        "url": "https://www.atlassian.com/git/tutorials/git-submodule"
+    },
+    {
+        "_createdAt": "2021-08-30T21:54:06Z",
+        "_id": "PaYypp5eJ3aGfBF2x8YhJv",
+        "_rev": "dWFfJLCovGPkcwYl23JXbR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:43:35Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Git Submodules: A Step-By-Step Guide | Career Karma",
+        "url": "https://careerkarma.com/blog/git-submodules/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:55:35Z",
+        "_id": "800nO8Bf3aC80gW7yBgexN",
+        "_rev": "800nO8Bf3aC80gW7yDLhxs",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:43:44Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Vercel – Using Express.js with Vercel - Vercel Guides",
+        "url": "https://vercel.com/guides/using-express-with-vercel"
+    },
+    {
+        "_createdAt": "2021-08-30T21:57:16Z",
+        "_id": "dWFfJLCovGPkcwYl21iApp",
+        "_rev": "dWFfJLCovGPkcwYl23JaCL",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:43:51Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Mailchimp Dashboard | Mailchimp",
+        "url": "https://us1.admin.mailchimp.com/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:57:19Z",
+        "_id": "PaYypp5eJ3aGfBF2x8Z18B",
+        "_rev": "dWFfJLCovGPkcwYl23JbMT",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:44:00Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Newsletter Signup App - Mailchimp API - YouTube",
+        "url": "https://www.youtube.com/watch?v=Gjk25N7WFkI"
+    },
+    {
+        "_createdAt": "2021-08-30T21:57:22Z",
+        "_id": "dWFfJLCovGPkcwYl21iBC1",
+        "_rev": "800nO8Bf3aC80gW7yDLlsB",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:44:07Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Vercel – Email - Vercel Documentation",
+        "url": "https://vercel.com/docs/solutions/email"
+    },
+    {
+        "_createdAt": "2021-08-30T21:59:39Z",
+        "_id": "dWFfJLCovGPkcwYl21iUpt",
+        "_rev": "dWFfJLCovGPkcwYl23JfvR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:44:19Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "WireGuard - ArchWiki",
+        "url": "https://wiki.archlinux.org/title/WireGuard"
+    },
+    {
+        "_createdAt": "2021-08-30T21:59:43Z",
+        "_id": "800nO8Bf3aC80gW7yBh9HR",
+        "_rev": "800nO8Bf3aC80gW7yDLot1",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:44:26Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Wireguard VPN: Typical Setup - The poetry of (in)security",
+        "url": "https://www.ckn.io/blog/2017/11/14/wireguard-vpn-typical-setup/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:59:50Z",
+        "_id": "800nO8Bf3aC80gW7yBh9tO",
+        "_rev": "800nO8Bf3aC80gW7yDLpge",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:44:34Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Set Up WireGuard VPN on Ubuntu | Linode",
+        "url": "https://www.linode.com/docs/guides/set-up-wireguard-vpn-on-ubuntu/"
+    },
+    {
+        "_createdAt": "2021-08-30T21:59:54Z",
+        "_id": "dWFfJLCovGPkcwYl21iXhR",
+        "_rev": "dWFfJLCovGPkcwYl23JkM5",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:44:41Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Install WireGuard [Client] on Arch Linux | Hogwarts",
+        "url": "https://hogwarts.zone/install-wireguard-client-on-arch-linux"
+    },
+    {
+        "_createdAt": "2021-08-30T22:00:00Z",
+        "_id": "dWFfJLCovGPkcwYl21iYVN",
+        "_rev": "PaYypp5eJ3aGfBF2x9yU6B",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:44:49Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Install Transmission on Arch Linux | Hogwarts",
+        "url": "https://hogwarts.zone/install-transmission-on-arch-linux/"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:19Z",
+        "_id": "PaYypp5eJ3aGfBF2x8ZYLX",
+        "_rev": "PaYypp5eJ3aGfBF2x9yVih",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:45:04Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Event-stream based GraphQL subscriptions for real-time updates",
+        "url": "https://gist.github.com/OlegIlyenko/a5a9ab1b000ba0b5b1ad"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:23Z",
+        "_id": "dWFfJLCovGPkcwYl21is6T",
+        "_rev": "dWFfJLCovGPkcwYl23K0VZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:45:25Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Show Calendar — Part 2: Implementing Event Sourcing (for Dummies!) | by Marcus Stenbeck | Medium",
+        "url": "https://medium.com/@marcusstenbeck/part-2-implementing-event-sourcing-for-dummies-ffc11dc3dcc"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:26Z",
+        "_id": "PaYypp5eJ3aGfBF2x8ZZIN",
+        "_rev": "dWFfJLCovGPkcwYl23KDDR",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:45:32Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Modeling GraphQL Mutations. GraphQL mutations provide a flexible… | by Oleg Ilyenko | commercetools tech",
+        "url": "https://techblog.commercetools.com/modeling-graphql-mutations-52d4369f73b1"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:29Z",
+        "_id": "dWFfJLCovGPkcwYl21itRh",
+        "_rev": "PaYypp5eJ3aGfBF2x9ytPD",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:45:39Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Event Sourcing made Simple. tl;dr: Event Sourcing is to data what… | by Philippe Creux | Kickstarter Engineering",
+        "url": "https://kickstarter.engineering/event-sourcing-made-simple-4a2625113224"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:32Z",
+        "_id": "dWFfJLCovGPkcwYl21ittR",
+        "_rev": "dWFfJLCovGPkcwYl23KHjd",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:45:46Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Event sourcing with Apollo - apollo - Meteor forums",
+        "url": "https://forums.meteor.com/t/event-sourcing-with-apollo/22282"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:35Z",
+        "_id": "dWFfJLCovGPkcwYl21iuCr",
+        "_rev": "PaYypp5eJ3aGfBF2x9ywIB",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:45:53Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "GraphQL-enabled event sourcing engine | Hacker News",
+        "url": "https://news.ycombinator.com/item?id=11464689"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:37Z",
+        "_id": "dWFfJLCovGPkcwYl21iuLB",
+        "_rev": "800nO8Bf3aC80gW7yDMRUt",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:46:02Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "\"Turning the database inside out with Apache Samza\" by Martin Kleppmann - YouTube",
+        "url": "https://www.youtube.com/watch?v=fU9hR3kiOK0"
+    },
+    {
+        "_createdAt": "2021-08-30T22:03:39Z",
+        "_id": "PaYypp5eJ3aGfBF2x8ZaMZ",
+        "_rev": "800nO8Bf3aC80gW7yDMTwh",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:46:09Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Turning the database inside-out with Apache Samza — Martin Kleppmann’s blog",
+        "url": "https://martin.kleppmann.com/2015/03/04/turning-the-database-inside-out.html"
+    },
+    {
+        "_createdAt": "2021-08-30T23:32:31Z",
+        "_id": "dWFfJLCovGPkcwYl21qttN",
+        "_rev": "dWFfJLCovGPkcwYl21qtqb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-30T23:32:31Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Get ready for an INSANE 2022 in tech! PART 1: Intel’s resurgence - YouTube",
+        "url": "https://www.youtube.com/watch?v=onJO5w5A6fo"
+    },
+    {
+        "_createdAt": "2021-08-31T01:55:23Z",
+        "_id": "800nO8Bf3aC80gW7yC43vI",
+        "_rev": "dWFfJLCovGPkcwYl23KQPp",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:46:18Z",
+        "category": [
+            "dota"
+        ],
+        "title": "5 UNBELIEVABLY BROKEN MIDLANERS of the NEW 7.30b Patch - Position 2 - Dota 2 Guide - YouTube",
+        "url": "https://www.youtube.com/watch?v=k_ZYD0deUcA"
+    },
+    {
+        "_createdAt": "2021-08-31T02:01:13Z",
+        "_id": "PaYypp5eJ3aGfBF2x8tMZ5",
+        "_rev": "PaYypp5eJ3aGfBF2x8tMWd",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T02:01:13Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Onlyfans Might Be Playing 4D Chess - YouTube",
+        "url": "https://www.youtube.com/watch?v=hvbmeifJWlI"
+    },
+    {
+        "_createdAt": "2021-08-31T02:12:03Z",
+        "_id": "800nO8Bf3aC80gW7yC5SzB",
+        "_rev": "800nO8Bf3aC80gW7yC5SwG",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T02:12:03Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "The Truth About Encrypted Group Chats - YouTube",
+        "url": "https://www.youtube.com/watch?v=fmsucf7i1AE"
+    },
+    {
+        "_createdAt": "2021-08-31T02:37:12Z",
+        "_id": "dWFfJLCovGPkcwYl226uhB",
+        "_rev": "dWFfJLCovGPkcwYl226ueP",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T02:37:12Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "how I built a HIGHLY FUNCTIONAL DIY Kitchen Island - YouTube",
+        "url": "https://www.youtube.com/watch?v=k6m0XH1fV7w"
+    },
+    {
+        "_createdAt": "2021-08-31T03:17:31Z",
+        "_id": "PaYypp5eJ3aGfBF2x8xjp9",
+        "_rev": "PaYypp5eJ3aGfBF2x8xjmh",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:17:31Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "This Made Me So HAPPY!!! - Fanatec CSL DD Racing Sim Motor - YouTube",
+        "url": "https://www.youtube.com/watch?v=a12_ztNJ87c"
+    },
+    {
+        "_createdAt": "2021-08-31T03:21:49Z",
+        "_id": "PaYypp5eJ3aGfBF2x8xy1H",
+        "_rev": "PaYypp5eJ3aGfBF2x8xxyp",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:21:49Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Vim As Your Editor (1/6): The Basic Vim Movements - YouTube",
+        "url": "https://www.youtube.com/watch?v=H3o4l4GVLW0"
+    },
+    {
+        "_createdAt": "2021-08-31T03:29:33Z",
+        "_id": "dWFfJLCovGPkcwYl22A09x",
+        "_rev": "dWFfJLCovGPkcwYl22A07B",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:29:33Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Vim As Your Editor (2/6): Foundation for Speed - YouTube",
+        "url": "https://www.youtube.com/watch?v=gSHf_b6AWKc"
+    },
+    {
+        "_createdAt": "2021-08-31T03:33:13Z",
+        "_id": "800nO8Bf3aC80gW7yCAMGk",
+        "_rev": "800nO8Bf3aC80gW7yCAMDp",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:33:13Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Vim As Your Editor (3/6): Horizontal Speed - YouTube",
+        "url": "https://www.youtube.com/watch?v=Q6mr7w0YmkQ"
+    },
+    {
+        "_createdAt": "2021-08-31T03:38:06Z",
+        "_id": "PaYypp5eJ3aGfBF2x8yr3v",
+        "_rev": "PaYypp5eJ3aGfBF2x8yr1T",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:38:06Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Vim As Your Editor (4/6): Vertical Domination - YouTube",
+        "url": "https://www.youtube.com/watch?v=4uPRlnTUlMY"
+    },
+    {
+        "_createdAt": "2021-08-31T03:44:30Z",
+        "_id": "dWFfJLCovGPkcwYl22An49",
+        "_rev": "dWFfJLCovGPkcwYl22An1N",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:44:30Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Vim As Your Editor (5/6): Going Full Vim - File Movements, Buffers, Splits - YouTube",
+        "url": "https://www.youtube.com/watch?v=N05REqmq0X4"
+    },
+    {
+        "_createdAt": "2021-08-31T03:48:07Z",
+        "_id": "PaYypp5eJ3aGfBF2x8zhIV",
+        "_rev": "PaYypp5eJ3aGfBF2x8zhG3",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T03:48:07Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Vim As Your Editor (6/6): Vim Long and Prosper - YouTube",
+        "url": "https://www.youtube.com/watch?v=e1BFdY0NBLY"
+    },
+    {
+        "_createdAt": "2021-08-31T04:25:27Z",
+        "_id": "PaYypp5eJ3aGfBF2x91D3H",
+        "_rev": "PaYypp5eJ3aGfBF2x91D0p",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T04:25:27Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "My Netflix Win - YouTube",
+        "url": "https://www.youtube.com/watch?v=Aks2edyzcJA"
+    },
+    {
+        "_createdAt": "2021-08-31T14:01:49Z",
+        "_id": "800nO8Bf3aC80gW7yDCjP6",
+        "_rev": "800nO8Bf3aC80gW7yDCjMB",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:01:49Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Services | Forms | The Power of Serverless",
+        "url": "https://serverless.css-tricks.com/services/forms"
+    },
+    {
+        "_createdAt": "2021-08-31T14:26:00Z",
+        "_id": "PaYypp5eJ3aGfBF2x9uViB",
+        "_rev": "PaYypp5eJ3aGfBF2x9uVfj",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T14:26:00Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Timcast IRL - Oregon Implements OUTDOOR Mask Mandates, Parents REVOLT w/Steve Bannon - YouTube",
+        "url": "https://www.youtube.com/watch?v=DC1ND2coA9c"
+    },
+    {
+        "_createdAt": "2021-08-31T15:16:59Z",
+        "_id": "PaYypp5eJ3aGfBF2xA2Ghb",
+        "_rev": "PaYypp5eJ3aGfBF2xA2Gf9",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T15:16:59Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Justin Amash on How To End the Civil War in the Libertarian Party - YouTube",
+        "url": "https://www.youtube.com/watch?v=XR7yDmosOB0"
+    },
+    {
+        "_createdAt": "2021-08-31T16:01:33Z",
+        "_id": "dWFfJLCovGPkcwYl23VkjZ",
+        "_rev": "800nO8Bf3aC80gW7yDZ99r",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T16:04:10Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "statelyai/xactor: Actors for the modern web",
+        "url": "https://github.com/statelyai/xactor"
+    },
+    {
+        "_createdAt": "2021-08-31T16:01:42Z",
+        "_id": "PaYypp5eJ3aGfBF2xA7szP",
+        "_rev": "PaYypp5eJ3aGfBF2xA8fhn",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T16:04:17Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "Actor Model Explained - YouTube",
+        "url": "https://www.youtube.com/watch?v=ELwEdb_pD0k"
+    },
+    {
+        "_createdAt": "2021-08-31T16:03:08Z",
+        "_id": "dWFfJLCovGPkcwYl23WK5B",
+        "_rev": "PaYypp5eJ3aGfBF2xA8gL1",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T16:04:23Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "The actor model in 10 minutes",
+        "url": "https://www.brianstorti.com/the-actor-model/"
+    },
+    {
+        "_createdAt": "2021-08-31T16:03:36Z",
+        "_id": "PaYypp5eJ3aGfBF2xA8ctj",
+        "_rev": "PaYypp5eJ3aGfBF2xA8gh5",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T16:04:29Z",
+        "category": [
+            "assigned"
+        ],
+        "title": "What is the Actor Model &amp; When Should You Use it? | Matt Ferderer",
+        "url": "https://mattferderer.com/what-is-the-actor-model-and-when-should-you-use-it"
+    },
+    {
+        "_createdAt": "2021-08-31T17:52:22Z",
+        "_id": "800nO8Bf3aC80gW7yDrE8w",
+        "_rev": "800nO8Bf3aC80gW7yDrE61",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T17:52:22Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Raspberry Pi Time Lapse Photography - YouTube",
+        "url": "https://www.youtube.com/watch?v=Fer4SssH4FE"
+    },
+    {
+        "_createdAt": "2021-08-31T18:01:25Z",
+        "_id": "dWFfJLCovGPkcwYl23pjll",
+        "_rev": "dWFfJLCovGPkcwYl23pjiz",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T18:01:25Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Why would you build a Raspberry Pi Cluster? - YouTube",
+        "url": "https://www.youtube.com/watch?v=8zXG4ySy1m8"
+    },
+    {
+        "_createdAt": "2021-08-31T18:15:08Z",
+        "_id": "dWFfJLCovGPkcwYl23rELZ",
+        "_rev": "800nO8Bf3aC80gW7yHPiRi",
+        "_type": "bookmark",
+        "_updatedAt": "2021-09-01T16:17:52Z",
+        "category": [
+            "dota"
+        ],
+        "title": "KILL TOWERS IN 5 HITS?! TOTALLY BALANCED TALENT. - YouTube",
+        "url": "https://www.youtube.com/watch?v=aetRa7ZERyU"
+    },
+    {
+        "_createdAt": "2021-08-31T18:28:44Z",
+        "_id": "PaYypp5eJ3aGfBF2xARIc3",
+        "_rev": "PaYypp5eJ3aGfBF2xARIZb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T18:28:44Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Let&#39;s Try 15 DIFFERENT MOUNTAIN DEW FLAVORS - YouTube",
+        "url": "https://www.youtube.com/watch?v=vHVw8PaZGdE"
+    },
+    {
+        "_createdAt": "2021-08-31T18:33:22Z",
+        "_id": "PaYypp5eJ3aGfBF2xARueV",
+        "_rev": "800nO8Bf3aC80gW7yHPkng",
+        "_type": "bookmark",
+        "_updatedAt": "2021-09-01T16:18:08Z",
+        "category": [
+            "dota"
+        ],
+        "title": "Gain MMR with these 7.30 Tips and Tricks - YouTube",
+        "url": "https://www.youtube.com/watch?v=s7u4JbNrC3I"
+    },
+    {
+        "_createdAt": "2021-08-31T18:44:29Z",
+        "_id": "PaYypp5eJ3aGfBF2xAT9bL",
+        "_rev": "dWFfJLCovGPkcwYl27KdlJ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-09-01T16:18:14Z",
+        "category": [
+            "dota"
+        ],
+        "title": "MID VENO?! I HATE THIS HERO - YouTube",
+        "url": "https://www.youtube.com/watch?v=WTgWInAAqBU"
+    },
+    {
+        "_createdAt": "2021-08-31T18:48:25Z",
+        "_id": "dWFfJLCovGPkcwYl23vsVN",
+        "_rev": "dWFfJLCovGPkcwYl23vsSb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T18:48:25Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Georges St-Pierre on eating one meal a day and the carnivore diet - YouTube",
+        "url": "https://www.youtube.com/watch?v=y1XbPl1XB44"
+    },
+    {
+        "_createdAt": "2021-08-31T20:51:45Z",
+        "_id": "dWFfJLCovGPkcwYl249UDZ",
+        "_rev": "dWFfJLCovGPkcwYl249UAn",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T20:51:45Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Nunjucks",
+        "url": "https://mozilla.github.io/nunjucks/templating.html#join"
+    },
+    {
+        "_createdAt": "2021-08-31T21:31:42Z",
+        "_id": "800nO8Bf3aC80gW7yEGcl5",
+        "_rev": "800nO8Bf3aC80gW7yEGciA",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T21:31:42Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Building a Dashboard with Cube CSS and React - YouTube",
+        "url": "https://www.youtube.com/watch?v=eFfEkDCpau8"
+    },
+    {
+        "_createdAt": "2021-08-31T22:35:19Z",
+        "_id": "dWFfJLCovGPkcwYl24JR4b",
+        "_rev": "dWFfJLCovGPkcwYl24JR1p",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T22:35:19Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Paper Sizes and Formats, the Difference Between A4 and Letter | Swift Publisher",
+        "url": "https://www.swiftpublisher.com/useful-articles/paper-sizes-and-formats-explained"
+    },
+    {
+        "_createdAt": "2021-08-31T22:36:52Z",
+        "_id": "PaYypp5eJ3aGfBF2xAp5Ul",
+        "_rev": "PaYypp5eJ3aGfBF2xAp5SJ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T22:36:52Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "US Paper Sizes - Letter &amp; Legal Paper Format Dimensions",
+        "url": "https://www.papersizes.org/us-paper-sizes.htm"
+    },
+    {
+        "_createdAt": "2021-08-31T23:51:02Z",
+        "_id": "PaYypp5eJ3aGfBF2xAvOj1",
+        "_rev": "PaYypp5eJ3aGfBF2xAvOgZ",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T23:51:02Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Create layout grids with grids, columns, and rows – Figma Help Center",
+        "url": "https://help.figma.com/hc/en-us/articles/360040450513-Create-Layout-Grids-with-grids-columns-and-rows"
+    },
+    {
+        "_createdAt": "2021-08-31T23:51:08Z",
+        "_id": "800nO8Bf3aC80gW7yEUZDW",
+        "_rev": "800nO8Bf3aC80gW7yEUZAb",
+        "_type": "bookmark",
+        "_updatedAt": "2021-08-31T23:51:08Z",
+        "category": [
+            "inbox"
+        ],
+        "title": "Figma Tutorial: Layout Grids - YouTube",
+        "url": "https://www.youtube.com/watch?v=zd8wrAdURN0"
+    }
+]
