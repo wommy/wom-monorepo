@@ -1,3 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+day: '2022/07/18'
+where: 'fr r0y'
+
+---
+
+## rambles
+
+wokeup at jill's
+worked on splitting out sanity a lil bit
+
+now im home and i gotta figure out how to delete some
+  i feel like i was trying to avoid the sanity docs 
+    by doing it long way with nvim n json
+  but now im forced to use it anyway
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 day: '2022/07/14'
 where: 'fr r0y'
