@@ -5,6 +5,15 @@ importers:
   .:
     specifiers: {}
 
+  packages/eleventy--path-prefix:
+    specifiers: {}
+
+  packages/eleventy-canary:
+    specifiers:
+      '@11ty/eleventy': 2.0.0-canary.13
+    dependencies:
+      '@11ty/eleventy': 2.0.0-canary.13
+
   packages/page-index:
     specifiers:
       '@11ty/eleventy': 2.0.0-canary.8
@@ -24,12 +33,6 @@ importers:
       '@sanity/client': 3.3.0
       dotenv: 16.0.0
       netlify-plugin-cache: 1.0.3
-
-  packages/util-eleventy:
-    specifiers:
-      '@11ty/eleventy': 2.0.0-canary.13
-    dependencies:
-      '@11ty/eleventy': 2.0.0-canary.13
 
 packages:
 

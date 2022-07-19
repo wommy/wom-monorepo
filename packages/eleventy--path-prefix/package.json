@@ -1,0 +1,8 @@
+{
+  "name": "eleventy--path-prefix",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy --pathprefix=eleventy-base-blog"
+  }
+}
