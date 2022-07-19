@@ -1,6 +1,10 @@
 {
   "name": "@wmr/pack--eleventy-canary",
   "version": "0.1.0",
+  "scripts": {
+    "build": "eleventy",
+    "start": "pnpm build --serve --incremental"
+  },
   "dependencies": {
     "@11ty/eleventy": "2.0.0-canary.13"
   }
