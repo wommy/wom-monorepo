@@ -1,6 +1,7 @@
 ---
 layout: 'with_header/index.njk'
 title: 'marx'
+subtitle: 'inbox'
 myData:
   list:
     - apple
@@ -9,5 +10,7 @@ myData:
     - donut
 
 ---
+
+<h2>{{ subtitle }}</h2>
 
 {% renderFile './_includes/list_pure/index.11ty.js', myData %}
