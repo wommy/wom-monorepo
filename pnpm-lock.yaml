@@ -34,6 +34,12 @@ importers:
       dotenv: 16.0.0
       netlify-plugin-cache: 1.0.3
 
+  projects/wommy-marx:
+    specifiers:
+      '@11ty/eleventy': 2.0.0-canary.13
+    dependencies:
+      '@11ty/eleventy': 2.0.0-canary.13
+
 packages:
 
   /@11ty/dependency-tree/2.0.1:
