@@ -1,8 +1,13 @@
 ---
 layout: 'layout-withHeader/index.njk'
 title: 'marx'
-List: ['a','b','c']
+myData:
+  list:
+    - apple
+    - banana
+    - carrot
+    - donut
 
 ---
 
-{% renderFile './_includes/comp--list-with-data/index.11ty.js' %}
+{% renderFile './_includes/comp--list-pure/index.11ty.js', myData %}
