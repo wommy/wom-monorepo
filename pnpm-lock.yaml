@@ -23,13 +23,13 @@ importers:
   packages/build-eleventy/path-prefix:
     specifiers: {}
 
-  packages/pages/wommy/index:
+  packages/pages/index:
     specifiers:
       '@11ty/eleventy': 2.0.0-canary.8
     dependencies:
       '@11ty/eleventy': 2.0.0-canary.8
 
-  packages/pages/wommy/marx:
+  packages/pages/marx:
     specifiers:
       '@11ty/eleventy': 2.0.0-canary.9
       '@11ty/eleventy-fetch': ^3.0.0
