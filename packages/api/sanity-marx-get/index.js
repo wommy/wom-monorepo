@@ -1,4 +1,4 @@
-require('@sanity/client')({
+module.exports = require('@sanity/client')({
 	projectId: '4mxx5zpk',
 	dataset: 'production',
 	apiVersion: '2022-07-21',
