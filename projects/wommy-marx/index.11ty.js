@@ -13,5 +13,5 @@ module.exports.render = async function({ subtitle, list }){
   return `
   <h2>${ subtitle }</h2>
   
-  ${await this.renderFile( './_includes/list_pure/index.11ty.js', list )}`
+  ${await this.renderFile( './_includes/list/index.11ty.js', list )}`
 }
