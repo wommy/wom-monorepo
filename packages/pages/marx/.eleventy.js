@@ -5,6 +5,12 @@
 module.exports = function (eleventyConfig) {
 	eleventyConfig.setQuietMode(true)
 	eleventyConfig.addPlugin(require('@11ty/eleventy').EleventyRenderPlugin)
+	eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-vite'), {
+		viteOptions: {
+			appType: 'custom',
+			server: { middlewareMode: true },
+		},
+	})
 	// eleventyConfig.addGlobalData(
 	// 	'sanity_marx_get',
 	// 	require('../../api/sanity-marx-get')(

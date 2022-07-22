@@ -7,6 +7,7 @@
     "start": "eleventy --serve --incremental"
   },
   "dependencies": {
-    "@11ty/eleventy": "2.0.0-canary.13"
+    "@11ty/eleventy": "2.0.0-canary.13",
+    "@11ty/eleventy-plugin-vite": "2.0.0-canary.1"
   }
 }
