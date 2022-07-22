@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "build": "eleventy",
+    "debug": "DEBUG=* eleventy --serve --incremental",
     "start": "eleventy --serve --incremental"
   },
   "dependencies": {
