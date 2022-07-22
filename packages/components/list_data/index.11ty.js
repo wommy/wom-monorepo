@@ -1,5 +1,5 @@
-const List = ['apple', 'banana', 'carrot']
+const list = ['apple', 'banana', 'carrot']
 
 module.exports.render = () => `<ul>
-	${List.map(	ea => `<li>${ea}</li>`,).join('\n\t')}
+	${list.map(	ea => `<li key=${ea}>${ea}`,).join('\n\t')}
 </ul>`
