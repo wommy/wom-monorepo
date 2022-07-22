@@ -1,11 +1,11 @@
 module.exports = {
 	data: {
 		layout: 'with_header/index.html',
-		list: ['apple', 'banana', 'carrot', 'donut'],
+		// list: ['apple', 'banana', 'carrot', 'donut'],
 	},
-	async render({ list }) {
-		const incl_path = x => `../../components/${x}/index.11ty.js`
+	async render(data) {
+		// const incl_path = x => `../../components/${x}`
 		// return await this.renderFile(incl_path('list_data'))
-		return await this.renderFile(incl_path('list'), list)
+		return await this.renderFile('../../components/list.11ty.js', data)
 	},
 }

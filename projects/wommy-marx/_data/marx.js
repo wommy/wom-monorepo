@@ -11,9 +11,8 @@ const hour = 60 * 60,
 	week = day * 7
 
 const marx_since = time => cache(since(time)).then(x => x.result)
-let res = marx_since(day)
 
-module.exports = res
+module.exports = marx_since(day)
 	// hour: marx_since(hour),
 	// week: marx_since(week),
 

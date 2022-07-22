@@ -1,5 +1,5 @@
-module.exports = async (query, params = {}) =>
-	await require('@sanity/client')({
+module.exports = (query, params = {}) =>
+	require('@sanity/client')({
 		projectId: '4mxx5zpk',
 		dataset: 'production',
 		apiVersion: '2022-07-21',
