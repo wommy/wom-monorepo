@@ -6,6 +6,8 @@ module.exports = function(eleventyConfig) {
 
 	eleventyConfig.addPlugin( require('@11ty/eleventy').EleventyRenderPlugin )
 
+	// eleventyConfig.addGlobalData('sanity_marx_get', require('../../api/sanity-marx-get'))
+
 	return {
 		dir: {
 			layouts: "_layouts"
