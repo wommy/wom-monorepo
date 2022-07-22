@@ -13,7 +13,7 @@ module.exports.data = {
 
 module.exports.render = async function({ subtitle, list }){
   return `
-  <h2>${ subtitle }</h2>
-  
+  ${await this.renderTemplate(`## {{ subtitle }}`, 'njk,md', subtitle)}
   ${await this.renderFile(incl_path('list_data'))}
+`
 }
