@@ -10,7 +10,8 @@ module.exports = function(eleventyConfig) {
 
 	return {
 		dir: {
-			layouts: "_layouts"
-		}
+			includes: '../../components',
+			layouts: '../../layouts',
+		},
 	}
 }
