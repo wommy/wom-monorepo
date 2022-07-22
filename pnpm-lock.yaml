@@ -31,6 +31,12 @@ importers:
 
   packages/pages/marx:
     specifiers:
+      '@11ty/eleventy': 2.0.0-canary.13
+    dependencies:
+      '@11ty/eleventy': 2.0.0-canary.13
+
+  projects/wommy-marx:
+    specifiers:
       '@11ty/eleventy': 2.0.0-canary.9
       '@11ty/eleventy-fetch': ^3.0.0
       '@sanity/client': ^3.3.0
@@ -42,12 +48,6 @@ importers:
       '@sanity/client': 3.3.2
       dotenv: 16.0.0
       netlify-plugin-cache: 1.0.3
-
-  projects/wommy-marx:
-    specifiers:
-      '@11ty/eleventy': 2.0.0-canary.13
-    dependencies:
-      '@11ty/eleventy': 2.0.0-canary.13
 
 packages:
 

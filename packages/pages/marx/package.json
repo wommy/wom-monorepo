@@ -1,16 +1,11 @@
 {
-  "name": "@wmr/page-marx",
-  "private": true,
-  "version": "0.2.0",
+  "name": "@wmr/proj--wommy-marx",
+  "version": "0.1.0",
   "scripts": {
-    "start": "eleventy --serve --incremental --pathprefix=marx",
-    "debug": "DEBUG=* eleventy --serve --incremental --pathprefix=marx"
+    "build": "eleventy --pathprefix=marx",
+    "start": "eleventy --pathprefix=marx --serve --incremental"
   },
   "dependencies": {
-    "@11ty/eleventy": "2.0.0-canary.9",
-    "@11ty/eleventy-fetch": "^3.0.0",
-    "@sanity/client": "^3.3.0",
-    "dotenv": "^16.0.0",
-    "netlify-plugin-cache": "^1.0.3"
+    "@11ty/eleventy": "2.0.0-canary.13"
   }
 }
