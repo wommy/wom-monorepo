@@ -1,6 +1,7 @@
-module.exports.render = function ({ list }) {
-	return `<ul>
-	${list.map(ea => `<li key="${ea}">${ea}`).join('\n\t')}
-  </ul>
-`
-}
+module.exports.render = ({ list }) => `<ul> ${list
+	.map(
+		item => `
+		<li ${item}>${item}`,
+	)
+	.join('\t\t')}
+	</ul>`
