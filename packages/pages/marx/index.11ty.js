@@ -1,3 +1,5 @@
+const incl_path = x => `./_includes/${x}/index.11ty.js`
+
 module.exports.data = {
   layout: 'with_header/index.njk',
   subtitle: 'inbox',
@@ -13,5 +15,5 @@ module.exports.render = async function({ subtitle, list }){
   return `
   <h2>${ subtitle }</h2>
   
-  ${await this.renderFile( './_includes/list/index.11ty.js', list )}`
+  ${await this.renderFile(incl_path('list_data'))}
 }
