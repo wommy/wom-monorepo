@@ -1,7 +1,6 @@
-module.exports.render = ({ list }) => `<ul> ${list
-	.map(
+module.exports = ({ list }) =>
+	`<ul>${list.map(
 		item => `
-		<li ${item}>${item}`,
-	)
-	.join('\t\t')}
+		<li ${item}>${item}`
+	).join('')}
 	</ul>`
