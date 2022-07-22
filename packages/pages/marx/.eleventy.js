@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
 	// eleventyConfig.addGlobalData('sanity_marx_get', require('../../api/sanity-marx-get'))
 
 	return {
+		pathPrefix: 'marx/',
 		dir: {
 			includes: '../../components',
 			layouts: '../../layouts',

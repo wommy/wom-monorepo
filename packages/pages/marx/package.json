@@ -2,8 +2,8 @@
   "name": "@wmr/proj--wommy-marx",
   "version": "0.1.0",
   "scripts": {
-    "build": "eleventy --pathprefix=marx",
-    "start": "eleventy --pathprefix=marx --serve --incremental"
+    "build": "eleventy",
+    "start": "eleventy --serve --incremental"
   },
   "dependencies": {
     "@11ty/eleventy": "2.0.0-canary.13"
