@@ -1,17 +1,5 @@
-const escapeHTML = str =>
-	str.replace(
-		/[&<>'"]/g,
-		tag =>
-			({
-				'&': '&amp;',
-				'<': '&lt;',
-				'>': '&gt;',
-				"'": '&#39;',
-				'"': '&quot;',
-			}[tag] || tag),
-	)
-const trunc = (str, len = 45) =>
-	str.length > len ? str.slice(0, len) + '...' : str
+const escapeHTML = require('../utils/escape_html')
+const trunc = require('../utils/truncate')
 
 // ${['A', 'B', 'C'].map(L => `<button>${L}</button>`).join('')}
 
