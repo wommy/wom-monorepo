@@ -10,7 +10,8 @@ const escapeHTML = str =>
 				'"': '&quot;',
 			}[tag] || tag),
 	)
-const trunc = str => (str.length > 45 ? str.slice(0, 45) + '...' : str)
+const trunc = (str, len = 45) =>
+	str.length > len ? str.slice(0, len) + '...' : str
 
 // ${['A', 'B', 'C'].map(L => `<button>${L}</button>`).join('')}
 
@@ -31,17 +32,17 @@ module.exports = ({ getSanityMarx }) => `
 
 <table>
 	<thead>
-		<tr>${['cat', 'day', 'form', 'title']
-			.map(
-				x => `
-			<th>${x}</th>`,
-			)
-			.join('')}
-		</tr>
-	</thead>${getSanityMarx
+		<tr>${['cat', 'day', 'form', 'title'].map(x => `<th>${x}</th>`).join('')}</tr>
+	</thead>
+	<tbody>${getSanityMarx
 		.map(
 			({ _id, _createdAt, category, url, title }) => `
-	<tr id="${_id}"><td>${category.map(ea => (ea === 'inbox' ? '' : ea))}</td><td>${_createdAt.split('T')[0]}</td><td></td><td><a href="${url}">${trunc(escapeHTML(title))}</a></td></tr>`,
+		<tr id="${_id}"><td>${category.map(ea => (ea === 'inbox' ? '' : ea))}</td><td>${
+				_createdAt.split('T')[0]
+			}</td><td></td><td><a href="${url}">${trunc(
+				escapeHTML(title),
+			)}</a></td></tr>`,
 		)
 		.join('')}
+	</tbody>
 </table>`

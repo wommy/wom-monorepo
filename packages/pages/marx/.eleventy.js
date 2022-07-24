@@ -11,13 +11,13 @@ module.exports = function (eleventyConfig) {
 			server: { middlewareMode: true },
 		},
 	})
-	eleventyConfig.addGlobalData('getSanityMarx', async () => {
-		return Promise.resolve(
+	eleventyConfig.addGlobalData('getSanityMarx', async () =>
+		Promise.resolve(
 			require('../../api/sanity-marx-get/index')(
 				`*[_type=='bookmark']|order(_createdAt desc){_id, _createdAt, category, url, title}`,
 			),
-		)
-	})
+		),
+	)
 
 	return {
 		pathPrefix: 'marx/',
