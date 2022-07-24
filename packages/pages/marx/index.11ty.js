@@ -6,6 +6,6 @@ module.exports = {
 	async render(data) {
 		// const incl_path = x => `../../components/${x}`
 		// return await this.renderFile(incl_path('list_data'))
-		return await this.renderFile('../../components/list.11ty.js', data)
+		return await this.renderFile('../../components/table.11ty.js', data)
 	},
 }

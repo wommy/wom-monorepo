@@ -3,8 +3,7 @@ const trunc = require('../utils/truncate')
 
 // ${['A', 'B', 'C'].map(L => `<button>${L}</button>`).join('')}
 
-module.exports = ({ getSanityMarx }) => `
-<style>
+const style = `<style>
 	table {
 		table-layout: fixed;
 		border-collapse: collapse;
@@ -17,7 +16,10 @@ module.exports = ({ getSanityMarx }) => `
 		padding: 3px 5px;
 	}
 </style>
+`
 
+module.exports = ({ getSanityMarx }) => `
+${ style }
 <table>
 	<thead>
 		<tr>${['cat', 'day', 'form', 'title'].map(x => `<th>${x}</th>`).join('')}</tr>
