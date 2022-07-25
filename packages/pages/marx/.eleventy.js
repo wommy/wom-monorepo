@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addGlobalData('getSanityMarx', async () =>
 		Promise.resolve(
 			require('../../api/sanity-marx-get/index')(
-				`*[_type=='bookmark']|order(_createdAt desc){_id, _createdAt, category, url, title}`,
+				`*[_type=='bookmark']|order(_createdAt){_id, _createdAt, title, url, category}`,
 			),
 		),
 	)

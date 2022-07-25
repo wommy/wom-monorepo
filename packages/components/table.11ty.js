@@ -9,7 +9,7 @@ const style = `<style>
 		border-collapse: collapse;
 		margin: 0 auto;
 	}
-	tr > th:last-child {
+	tr > th:nth-child(2) {
 		padding-right: 50%;
 	}
 	th, td {
@@ -22,16 +22,20 @@ module.exports = ({ getSanityMarx }) => `
 ${ style }
 <table>
 	<thead>
-		<tr>${['cat', 'day', 'form', 'title'].map(x => `<th>${x}</th>`).join('')}</tr>
+		<tr>${['day', 'title', 'category', 'form'].map(x => `<th>${x}</th>`).join('')}</tr>
 	</thead>
-	<tbody>${getSanityMarx
-		.map(
-			({ _id, _createdAt, category, url, title }) => `
-		<tr id="${_id}"><td>${category.map(ea => (ea === 'inbox' ? '' : ea))}</td><td>${
+	<tbody>${getSanityMarx.map(
+		({ _id, _createdAt, title, url, category }) => `
+		<tr id="${_id}">
+			<td>${
 				_createdAt.split('T')[0]
-			}</td><td></td><td><a href="${url}">${trunc(
+			}</td>
+			<td><a href="${url}">${trunc(
 				escapeHTML(title),
-			)}</a></td></tr>`,
+			)}</a></td>
+			<td>${category.map(ea => (ea === 'inbox' ? '' : ea))}</td>
+			<td></td>
+		</tr>`,
 		)
 		.join('')}
 	</tbody>
