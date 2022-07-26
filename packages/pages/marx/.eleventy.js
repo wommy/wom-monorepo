@@ -20,7 +20,6 @@ module.exports = function (eleventyConfig) {
 	)
 
 	return {
-		pathPrefix: 'marx/',
 		dir: {
 			includes: '../../components',
 			layouts: '../../layouts',
