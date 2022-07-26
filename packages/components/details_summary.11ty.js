@@ -1,6 +1,6 @@
 const escapeHTML = require('../utils/escape_html')
 // const trunc = require('../utils/truncate')
-// const datetimeFormatted = require('../utils/datetimeFormatted')
+const datetimeFormatted = require('../utils/datetimeFormatted')
 
 const style = `<style>
 	details {
@@ -18,7 +18,7 @@ ${style}
 	${getSanityMarx
 		.map(
 			mark => `
-	<details id="${mark._id}"><summary>${escapeHTML(
+	<details id="${mark._id}"><summary>${datetimeFormatted(mark._createdAt)} ${escapeHTML(
 				mark.title,
 			)}</summary><pre>${escapeHTML(
 				JSON.stringify(mark, null, 2),
