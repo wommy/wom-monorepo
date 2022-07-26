@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% include 'uniglo_style.html' %}
+
+		<meta charset="UTF-8" />
+		<base href="https://uniglobalunion-surveys.org/" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="./js/cookieconsent-2.8.2/src/cookieconsent.css"
+			media="print"
+			onload="this.media='all'"
+		/>
+
+		<!-- social metadata -->
+		<title>Thank You | UNI Global Union Surveys</title>
+		<meta
+			name="description"
+			content="The 'Thank You' page for completing a survey."
+		/>
+		<meta property="og:title" content="Thank You | UNI Global Union Surveys" />
+		<meta
+			property="og:description"
+			content="The 'Thank You' page for completing a survey."
+		/>
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:url"
+			content="https://uniglobalunion-surveys.org/thankyou"
+		/>
+		<meta
+			property="og:image"
+			content="https://uniglobalunion-surveys.org/img/facebook-social-default.png"
+		/>
+		<meta name="twitter:card" content="summary" />
+		<meta
+			name="twitter:image"
+			content="https://uniglobalunion-surveys.org/img/twitter-social-default.png"
+		/>
+
+		<!-- Favicons -->
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/favicon/favicon-16x16.png"
+		/>
+		<link rel="manifest" href="/favicon/site.webmanifest" />
+		<link
+			rel="mask-icon"
+			href="/favicon/safari-pinned-tab.svg"
+			color="#5bbad5"
+		/>
+		<link rel="shortcut icon" href="/favicon/favicon.ico" />
+		<meta name="msapplication-TileColor" content="#da532c" />
+		<meta name="msapplication-config" content="/favicon/browserconfig.xml" />
+		<meta name="theme-color" content="#ffffff" />
+
+		<script defer src="./js/cookieconsent-2.8.2/src/cookieconsent.js"></script>
+		<script defer src="./js/cookieconsent-init.js"></script>
+
+		<!-- Copy Link Functionality  -->
+		<script>
+			function copyLink() {
+				const copyLinkNotice = document.getElementById('share-text')
+				navigator.clipboard.writeText('https://uniglobalunion-surveys.org/')
+				copyLinkNotice.innerHTML = 'Survey link copied'
+				//copyLinkNotice.style.display = 'block';
+				setTimeout(function () {
+					// start a delay
+
+					copyLinkNotice.style.opacity = 1 // set opacity for the element to 1
+					var timerId = setInterval(function () {
+						// start interval loop
+						var opacity = copyLinkNotice.style.opacity // get current opacity
+						if (opacity <= 0) {
+							// check if its 0 yet
+							clearInterval(timerId) // if so, exit from interval loop
+						} else {
+							copyLinkNotice.style.opacity = opacity - 0.03 // else remove 0.05 from opacity
+						}
+					}, 30) // run every 0.1 second
+				}, 30) // wait to run after 1 seconds
+			}
+
+			function showSocialText(buttonId) {
+				const shareText = document.getElementById('share-text')
+
+				if (buttonId.toString().includes('link')) {
+					shareText.innerHTML = buttonId
+				} else {
+					shareText.innerHTML = 'Share on ' + buttonId
+				}
+				shareText.style.opacity = 1
+			}
+
+			function hideSocialText() {
+				const shareText = document.getElementById('share-text')
+				shareText.innerHTML = ''
+				shareText.style.opacity = 0
+			}
+		</script>
+		<!-- End Copy Link Functionality -->
+
+		<!-- Meta Pixel Code -->
+		<script type="text/plain" data-cookiecategory="targeting">
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '580467373431564');
+			fbq('track', 'PageView');
+		</script>
+		<!-- End Meta Pixel Code -->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script
+			type="text/plain"
+			data-cookiecategory="analytics"
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-8QJX81HRQT"
+		></script>
+		<script type="text/plain" data-cookiecategory="analytics">
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+
+			gtag('config', 'G-8QJX81HRQT');
+		</script>
+		<!-- End Global site tag (gtag.js) - Google Analytics -->
+	</head>
+
+	<body>
+		{% include 'uniglo_header.njk' %}
+
+		{{ content | safe }}
+	</body>
+</html>

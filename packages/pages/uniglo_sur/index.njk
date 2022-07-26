@@ -1,0 +1,116 @@
+---
+layout: 'uniglo.njk'
+---
+
+<div class="thankyoutext">
+	<h2>Thank you!</h2>
+
+	<div id="v1">
+		<!-- current non-driver-->
+		<p>
+			Thank you so much for your participation. Your answers will help us
+			campaign to make sure Amazon workers like yourself are treated with
+			the respect they deserve.
+		</p>
+		<p>
+			If you can, please share this survey with your co-workers. Every
+			answer matters.
+		</p>
+	</div>
+	<div id="v2">
+		<!-- former non-driver-->
+		<p>
+			Thank you so much for your participation. Your answers will help us
+			campaign to make sure Amazon workers are treated with the respect they
+			deserve.
+		</p>
+		<p>
+			If you can, please share this survey with your former co-workers.
+			Every answer matters.
+		</p>
+	</div>
+	<div id="v3">
+		<!-- current driver-->
+		<p>
+			Thank you so much for your participation. Your answers will help us
+			campaign to make sure Amazon workers like yourself are treated with
+			the respect they deserve.
+		</p>
+		<p>
+			If you can, please share this survey with your fellow Amazon drivers.
+			Every answer matters.
+		</p>
+	</div>
+	<div id="v4">
+		<!-- former driver-->
+		<p>
+			Thank you so much for your participation. Your answers will help us
+			campaign to make sure Amazon workers are treated with the respect they
+			deserve.
+		</p>
+		<p>
+			If you can, please share this survey with any Amazon drivers you know.
+			Every answer matters.
+		</p>
+	</div>
+	<div id="v5">
+		<!-- not recently / never employed -->
+		<p>
+			This survey is about elevating the voices of Amazon workers. It’s very
+			important that our answers come from current and former employees of
+			Amazon.
+		</p>
+		<p>
+			You can still do your part to help make sure Amazon workers are
+			treated with the respect they deserve. If you know anyone who works
+			for Amazon, please share this survey with them. Every answer matters.
+		</p>
+	</div>
+
+	<script>
+		const queryString = window.location.search
+		const urlParams = new URLSearchParams(queryString)
+		var tyversion = 'v' + urlParams.get('v')
+		console.log('tyversion = ' + tyversion)
+		document.getElementById(tyversion).style.display = 'inherit'
+	</script>
+
+	<div class="sharecontainer">
+		<!-- Add font awesome icons -->
+		<a
+			href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Funiglobalunion-surveys.org%2F"
+			class="fa fa-facebook"
+			target="_blank"
+			id="Facebook"
+			onmouseover="showSocialText(this.id)"
+			onmouseleave="hideSocialText()"
+			onclick="hideSocialText()"
+		></a>
+		<a
+			href="https://twitter.com/intent/tweet?url=https%3A%2F%2Funiglobalunion-surveys.org%2F"
+			class="fa fa-twitter"
+			target="_blank"
+			id="Twitter"
+			onmouseover="showSocialText(this.id)"
+			onmouseleave="hideSocialText()"
+			onclick="hideSocialText()"
+		></a>
+		<a
+			href="https://wa.me/?text=https%3A%2F%2Funiglobalunion-surveys.org%2F"
+			class="fa fa-whatsapp"
+			target="_blank"
+			id="WhatsApp"
+			onmouseover="showSocialText(this.id)"
+			onmouseleave="hideSocialText()"
+			onclick="hideSocialText()"
+		></a>
+		<a
+			onclick="copyLink();"
+			class="fa fa-link"
+			id="Copy survey link"
+			onmouseover="showSocialText(this.id)"
+			onmouseleave="hideSocialText()"
+		></a>
+	</div>
+	<p class="thankyoutext" id="share-text"></p>
+</div>
