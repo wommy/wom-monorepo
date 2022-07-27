@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		{% include 'uniglo_style.html' %}
+		<link
+			rel="stylesheet"
+			href="./css/font-awesome-4.7.0/css/font-awesome.min.css"
+		/>
+		<style>
+		{% include 'style.css' %}
+		</style>
 
 		<meta charset="UTF-8" />
 		<base href="https://uniglobalunion-surveys.org/" />
@@ -147,7 +153,7 @@
 	</head>
 
 	<body>
-		{% include 'uniglo_header.njk' %}
+		{% include 'header.njk' %}
 
 		{{ content | safe }}
 	</body>
