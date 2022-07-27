@@ -3,9 +3,6 @@ const escapeHTML = require('../utils/escape_html')
 const datetimeFormatted = require('../utils/datetimeFormatted')
 
 const style = `<style>
-	details {
-		display: list-item;
-	}
 </style>
 `
 // <td>${datetimeFormatted(mark._createdAt)}</td>
@@ -18,9 +15,9 @@ ${style}
 	${getSanityMarx
 		.map(
 			mark => `
-	<details id="${mark._id}"><summary>${datetimeFormatted(mark._createdAt)} ${escapeHTML(
-				mark.title,
-			)}</summary><pre>${escapeHTML(
+	<li><details id="${mark._id}"><summary>${datetimeFormatted(
+				mark._createdAt,
+			)} - ${escapeHTML(mark.title)}</summary><pre>${escapeHTML(
 				JSON.stringify(mark, null, 2),
 			)}</pre></details>`,
 		)
