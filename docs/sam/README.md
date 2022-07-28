@@ -12,5 +12,10 @@
 	- index
 	- survey
 	- thankyou
+- install 11ty
+	- `npm init -y`
+	- `npm i @11ty/eleventy`
+	- cleaned up `package.json`
+	-
 
 

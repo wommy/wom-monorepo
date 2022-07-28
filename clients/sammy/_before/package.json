@@ -1,0 +1,13 @@
+{
+  "name": "sammy/uniglo_survey",
+  "version": "0.1.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "build": "eleventy",
+    "debug": "DEBUG=* eleventy --serve",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "2.0.0-canary.14"
+  }
+}
