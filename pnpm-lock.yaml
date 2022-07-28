@@ -5,6 +5,14 @@ importers:
   .:
     specifiers: {}
 
+  clients/sammy/uniglo:
+    specifiers:
+      '@11ty/eleventy': 2.0.0-canary.13
+      '@11ty/eleventy-plugin-vite': 2.0.0-canary.1
+    dependencies:
+      '@11ty/eleventy': 2.0.0-canary.13
+      '@11ty/eleventy-plugin-vite': 2.0.0-canary.1
+
   packages/api/sanity-marx-get:
     specifiers:
       '@sanity/client': ^3.3.0
@@ -30,14 +38,6 @@ importers:
       '@11ty/eleventy': 2.0.0-canary.8
 
   packages/pages/marx:
-    specifiers:
-      '@11ty/eleventy': 2.0.0-canary.13
-      '@11ty/eleventy-plugin-vite': 2.0.0-canary.1
-    dependencies:
-      '@11ty/eleventy': 2.0.0-canary.13
-      '@11ty/eleventy-plugin-vite': 2.0.0-canary.1
-
-  packages/pages/uniglo_sur:
     specifiers:
       '@11ty/eleventy': 2.0.0-canary.13
       '@11ty/eleventy-plugin-vite': 2.0.0-canary.1
