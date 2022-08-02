@@ -240,7 +240,7 @@
 
 
     <meta charset="UTF-8">
-    <base href="https://uniglobalunion-surveys.org/">
+    <!-- <base href="https://uniglobalunion-surveys.org/"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
     <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">-->
     <!--<meta name="viewport" content="height=device-height,
@@ -351,13 +351,13 @@
       <p>This survey is made by unions, for workers. It’s just a few questions. We take your privacy seriously and will process your answers according to our privacy policies, which you can find <a href="https://uniglobalunion-surveys.org/privacy">here</a>. Your answers will be kept completely anonymous.</p>
 
       <div id="survey-button-cont">
-        <a id="surveybutton" href='https://www.uniglobalunion-surveys.org/survey'>Agree & Start</a>
+        <a id="surveybutton" href='survey.html'>Agree & Start</a>
       </div>
 
       <script>
         if (window.location.href.includes('?')){
           var urlParams = window.location.href.split('?')[1];
-          var hrefLink = "https://www.uniglobalunion-surveys.org/survey?" + urlParams
+          var hrefLink = "survey?" + urlParams
           document.getElementById("surveybutton").setAttribute("href", hrefLink);
         }
       </script>
