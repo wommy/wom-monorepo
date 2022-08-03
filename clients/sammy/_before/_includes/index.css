@@ -1,0 +1,233 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+      * {
+          -webkit-backface-visibility: hidden;
+      }
+
+      html {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        height: 95vh;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+
+      }
+
+      nav {
+        display: flex;
+        height: clamp(5rem, 10vh, 15rem);
+        margin-bottom: 2.5vh;
+        margin-right: 5vw;
+
+      }
+
+      .logo {
+        width: auto;
+        height:100%;
+        margin: 0;
+        margin-left: 1vw;
+      }
+
+      .nav-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+        padding-inline-start: 5vw;
+
+      }
+
+      .nav-item {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+
+      .nav-item a:hover {
+        color: gray;
+        cursor: pointer;
+      }
+
+      .nav-item a {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-size: clamp(1rem, 2vh, 3rem);
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+  /* SELECTED NAV PAGE */
+      .item1
+        {
+          border-bottom-style: solid;
+          border-bottom-width: max(3px, .0625rem);
+          border-bottom-color: #cf2e2e;
+          padding-bottom: calc(.5rem - max(3px, .0625rem));
+        }
+
+      .nav-dropdown {
+        display: none;
+        /* display: inline-block; */
+        margin-left: auto;
+        height: clamp(3rem, 6.66vh, 9rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+        z-index: 1;
+      }
+
+      .dropbtn {
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(1rem, 2vh, 3rem);
+        border: none;
+        color: white;
+        background-color: black;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+
+      .dropdown-content {
+        display: none;
+        background-color: black;
+        height: clamp(15rem, 33.3vh, 45rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+        }
+
+
+      .nav-dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .dropdown-content a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(1rem, 2vh, 3rem);
+        border: none;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: clamp(3rem, 6.66vh, 9rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+      }
+
+      .dropdown-content a:hover {
+        text-decoration: underline;
+      }
+
+      .shorttext {
+        display: none;
+      }
+
+      .surveyintro {
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        padding-bottom: 1rem;
+      }
+
+      .surveyintro h2 {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .surveyintro p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        padding-left: 1%;
+        padding-right: 1%;
+      }
+
+     #survey-button-cont {
+         text-align:center;
+     }
+
+    #surveybutton {
+        /*all: unset;*/
+        font-family: Helvetica,Arial,sans-serif;
+        display: inline-block;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background-color: #A02127;
+        color: #FFFFFF;
+        font-size: 20px;
+        border-radius: 9px;
+        padding: 0 33px;
+        font-weight: bold;
+        height: 50px;
+        cursor: pointer;
+        line-height: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+      }
+
+
+
+      #surveybutton:visited{
+          color: #FFFFFF;
+      }
+
+      #surveybutton:hover {
+          background-color: #AD3845;
+      }
+
+      .surveyintro a:link {
+        color: black;
+      }
+      .surveyintro a:visited {
+        color: black;
+      }
+      .surveyintro a:hover {
+        color: gray;
+      }
+
+      @media (orientation: portrait) {
+        nav {
+          margin-top: 2vh;
+        }
+        body {
+          margin-top: 0;
+        }
+        .nav-list {
+          padding-inline-start: 1rem;
+        }
+
+        .longtext {
+          display: none;
+        }
+        .shorttext {
+          display: block;
+        }
+        .surveyintro {
+          width: 95%;
+          /*text-align:left;*/
+        }
+    }
