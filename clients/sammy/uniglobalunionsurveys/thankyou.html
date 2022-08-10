@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+      html {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        height: 95vh;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+
+      }
+
+      nav {
+        display: flex;
+        height: clamp(5rem, 10vh, 15rem);
+        margin-bottom: 2.5vh;
+        margin-right: 5vw;
+
+      }
+
+      .logo {
+        width: auto;
+        height:100%;
+        margin: 0;
+        margin-left: 1vw;
+      }
+
+      .nav-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+        padding-inline-start: 5vw;
+
+      }
+
+      .nav-item {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+
+      .nav-item a:hover {
+        color: gray;
+        cursor: pointer;
+      }
+
+      .nav-item a {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-size: clamp(1rem, 2vh, 3rem);
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+
+      .nav-dropdown {
+        display: none;
+        /* display: inline-block; */
+        margin-left: auto;
+        height: clamp(3rem, 6.66vh, 9rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+        z-index: 1;
+      }
+
+      .dropbtn {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: clamp(1rem, 2vh, 3rem);
+        border: none;
+        color: white;
+        background-color: black;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+
+      .dropdown-content {
+        display: none;
+        background-color: black;
+        height: clamp(15rem, 33.3vh, 45rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+        }
+
+
+      .nav-dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .dropdown-content a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(1rem, 2vh, 3rem);
+        font-weight: 700;
+        border: none;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: clamp(3rem, 6.66vh, 9rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+      }
+
+      .dropdown-content a:hover {
+        text-decoration: underline;
+      }
+
+      .shorttext {
+        display: none;
+      }
+
+      .survey {
+        font-size: 1rem;
+        width: 100%;
+        height: max(420px, 82.5vh);
+      }
+
+      .thankyoutext {
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        padding-bottom: 1rem;
+      }
+
+      .thankyoutext h2 {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .thankyoutext p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        padding-left: 1%;
+        padding-right: 1%;
+      }
+
+      #v1 {
+        display: none;
+      }
+
+      #v2 {
+        display: none;
+      }
+
+      #v3 {
+        display: none;
+      }
+
+      #v4 {
+        display: none;
+      }
+
+      #v5 {
+        display: none;
+      }
+
+      .sharecontainer {
+        text-align: center;
+      }
+
+      .sharelogo {
+        height: clamp(2rem, 8vh, 4rem);
+        width: auto;
+        padding: 2rem;
+      }
+
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+
+    .fa-whatsapp {
+      background: #25D366;
+      color: white;
+    }
+
+    .fa-link {
+      background: #BCBCBC;
+      color: #FFFFFF;
+    }
+
+    #share-text {
+        display: block;
+        text-align: center;
+        opacity: 0;
+    }
+
+
+      @media (orientation: portrait) {
+        nav {
+          margin-top: 2vh;
+        }
+        body {
+          margin-top: 0;
+        }
+        .nav-list {
+          padding-inline-start: 1rem;
+        }
+
+        .longtext {
+          display: none;
+        }
+        .shorttext {
+          display: block;
+        }
+        .thankyoutext {
+          width: 95%;
+          /*text-align:left;*/
+        }
+    }
+
+
+
+
+    </style>
+
+
+    <meta charset="UTF-8">
+    <base href="https://uniglobalunion-surveys.org/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./js/cookieconsent-2.8.2/src/cookieconsent.css" media="print" onload="this.media='all'">
+
+    <!-- social metadata -->
+    <title>Thank You | UNI Global Union Surveys</title>
+    <meta name="description" content="The 'Thank You' page for completing a survey."/>
+    <meta property="og:title" content="Thank You | UNI Global Union Surveys" />
+    <meta property="og:description" content="The 'Thank You' page for completing a survey." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://uniglobalunion-surveys.org/thankyou" />
+    <meta property="og:image" content="https://uniglobalunion-surveys.org/img/facebook-social-default.png" />
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:image" content="https://uniglobalunion-surveys.org/img/twitter-social-default.png" />
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <script defer src="./js/cookieconsent-2.8.2/src/cookieconsent.js"></script>
+    <script defer src="./js/cookieconsent-init.js"></script>
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+    </script>
+
+
+    <!-- Copy Link Functionality  -->
+    <script>
+        function copyLink(){
+
+            const copyLinkNotice = document.getElementById('share-text');
+            navigator.clipboard.writeText("https://uniglobalunion-surveys.org/");
+            copyLinkNotice.innerHTML = 'Survey link copied';
+            //copyLinkNotice.style.display = 'block';
+            setTimeout(function() { // start a delay
+
+              copyLinkNotice.style.opacity = 1; // set opacity for the element to 1
+              var timerId = setInterval(function() { // start interval loop
+                var opacity = copyLinkNotice.style.opacity; // get current opacity
+                if (opacity <= 0) { // check if its 0 yet
+                  clearInterval(timerId); // if so, exit from interval loop
+                } else {
+                  copyLinkNotice.style.opacity = opacity - 0.03; // else remove 0.05 from opacity
+                }
+              },30); // run every 0.1 second
+            },30); // wait to run after 1 seconds
+
+        }
+
+        function showSocialText(buttonId) {
+
+            const shareText = document.getElementById('share-text');
+
+            if (buttonId.toString().includes('link')){
+
+                shareText.innerHTML = buttonId;
+
+            } else {
+
+                shareText.innerHTML = 'Share on ' + buttonId;
+
+            }
+            shareText.style.opacity= 1;
+        }
+
+        function hideSocialText() {
+
+            const shareText = document.getElementById('share-text');
+            shareText.innerHTML = '';
+            shareText.style.opacity= 0;
+
+        }
+
+    </script>
+    <!-- End Copy Link Functionality -->
+
+    <!-- Meta Pixel Code -->
+    <script type="text/plain" data-cookiecategory="targeting">
+      console.log('meta pixel fired');
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '580467373431564');
+      fbq('track', 'PageView');
+      if (urlParams.get('aes') == 'ce' || urlParams.get('aes') == 'pe')
+      {
+        fbq('trackCustom', 'SubmitSurvey');
+        console.log('SubmitSurvey fired');
+      }
+      if (urlParams.get('em') == 'y') {
+        fbq('trackCustom', 'EmailProvided');
+        console.log('EmailProvided fired');
+      }
+    </script>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Google Tag Manager -->
+    <script type="text/plain" data-cookiecategory="analytics">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-53KNQKG');</script>
+    <!-- End Google Tag Manager -->
+
+  </head>
+
+  <body>
+    <nav>
+      <img class="logo" src="./img/uniglobal-logo.png">
+      <ul class="nav-list">
+        <li class="nav-item item1"><a href="">Survey</a></li>
+        <li class="nav-item item2"><a href="about"><span class="longtext">About UNI Global Union</span><span class="shorttext">About</span></a></li>
+        <li class="nav-dropdown item3">
+            <button class="dropbtn">EN</button>
+            <div class="dropdown-content">
+              <a href="https://de.uniglobalunion-surveys.org/about">DE</a>
+              <a href="https://es.uniglobalunion-surveys.org/about">ES</a>
+              <a href="https://fr.uniglobalunion-surveys.org/about">FR</a>
+              <a href="https://it.uniglobalunion-surveys.org/about">IT</a>
+              <a href="https://pl.uniglobalunion-surveys.org/about">PL</a>
+            </div>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="thankyoutext">
+      <h2>Thank you!</h2>
+
+        <div id="v1"> <!-- current non-driver-->
+          <p>Thank you so much for your participation. Your answers will help us campaign to make sure Amazon workers like yourself are treated with the respect they deserve.</p>
+          <p>If you can, please share this survey with your co-workers. Every answer matters.</p>
+        </div>
+        <div id="v2"> <!-- former non-driver-->
+          <p>Thank you so much for your participation. Your answers will help us campaign to make sure Amazon workers are treated with the respect they deserve.</p>
+          <p>If you can, please share this survey with your former co-workers. Every answer matters.</p>
+        </div>
+        <div id="v3"> <!-- current driver-->
+          <p>Thank you so much for your participation. Your answers will help us campaign to make sure Amazon workers like yourself are treated with the respect they deserve.</p>
+          <p>If you can, please share this survey with your fellow Amazon drivers. Every answer matters.</p>
+        </div>
+        <div id="v4"> <!-- former driver-->
+          <p>Thank you so much for your participation. Your answers will help us campaign to make sure Amazon workers are treated with the respect they deserve.</p>
+          <p>If you can, please share this survey with any Amazon drivers you know. Every answer matters. </p>
+        </div>
+        <div id="v5"> <!-- not recently / never employed -->
+          <p>This survey is about elevating the voices of Amazon workers. It’s very important that our answers come from current and former employees of Amazon.</p>
+          <p>You can still do your part to help make sure Amazon workers are treated with the respect they deserve. If you know anyone who works for Amazon, please share this survey with them. Every answer matters.</p>
+        </div>
+
+        <script>
+          var tyversion = "v" + urlParams.get('v');
+          console.log("tyversion = " + tyversion);
+          document.getElementById(tyversion).style.display = "inherit";
+        </script>
+
+        <div class="sharecontainer">
+
+            <!-- Add font awesome icons -->
+            <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Funiglobalunion-surveys.org%2F" class="fa fa-facebook" target="_blank" id="Facebook" onmouseover="showSocialText(this.id)" onmouseleave="hideSocialText()" onclick="hideSocialText()"></a>
+            <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Funiglobalunion-surveys.org%2F" class="fa fa-twitter" target="_blank" id="Twitter" onmouseover="showSocialText(this.id)" onmouseleave="hideSocialText()" onclick="hideSocialText()"></a>
+            <a href="https://wa.me/?text=https%3A%2F%2Funiglobalunion-surveys.org%2F" class="fa fa-whatsapp" target="_blank" id="WhatsApp" onmouseover="showSocialText(this.id)" onmouseleave="hideSocialText()" onclick="hideSocialText()"></a>
+            <a onclick="copyLink();" class="fa fa-link" id="Copy survey link" onmouseover="showSocialText(this.id)" onmouseleave="hideSocialText()" ></a>
+        </div>
+        <p class='thankyoutext' id='share-text'></p>
+
+    </div>
+  </body>
+
+</html>
