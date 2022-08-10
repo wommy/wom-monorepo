@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+      * {
+          -webkit-backface-visibility: hidden;
+      }
+
+      html {
+        padding: 0;
+        margin: 0;
+      }
+
+      body {
+        height: 95vh;
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+
+      }
+
+      nav {
+        display: flex;
+        height: clamp(5rem, 10vh, 15rem);
+        margin-bottom: 2.5vh;
+        margin-right: 5vw;
+
+      }
+
+      .logo {
+        width: auto;
+        height:100%;
+        margin: 0;
+        margin-left: 1vw;
+      }
+
+      .nav-list {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100%;
+        padding-inline-start: 5vw;
+
+      }
+
+      .nav-item {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        margin-right: 1rem;
+        margin-left: 1rem;
+      }
+
+      .nav-item a:hover {
+        color: gray;
+        cursor: pointer;
+      }
+
+      .nav-item a {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-size: clamp(1rem, 2vh, 3rem);
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+
+  /* SELECTED NAV PAGE */
+      .item1
+        {
+          border-bottom-style: solid;
+          border-bottom-width: max(3px, .0625rem);
+          border-bottom-color: #cf2e2e;
+          padding-bottom: calc(.5rem - max(3px, .0625rem));
+        }
+
+      .nav-dropdown {
+        display: none;
+        /* display: inline-block; */
+        margin-left: auto;
+        height: clamp(3rem, 6.66vh, 9rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+        z-index: 1;
+      }
+
+      .dropbtn {
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(1rem, 2vh, 3rem);
+        border: none;
+        color: white;
+        background-color: black;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+      }
+
+      .dropdown-content {
+        display: none;
+        background-color: black;
+        height: clamp(15rem, 33.3vh, 45rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+        }
+
+
+      .nav-dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .dropdown-content a {
+        font-family: 'Montserrat', sans-serif;
+        font-size: clamp(1rem, 2vh, 3rem);
+        border: none;
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: clamp(3rem, 6.66vh, 9rem);
+        width: clamp(3rem, 6.66vh, 9rem);
+      }
+
+      .dropdown-content a:hover {
+        text-decoration: underline;
+      }
+
+      .shorttext {
+        display: none;
+      }
+
+      .surveyintro {
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: justify;
+        padding-bottom: 1rem;
+      }
+
+      .surveyintro h2 {
+        font-family: 'Oswald', sans-serif;
+        font-style: normal;
+        font-size: 1.5rem;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: black;
+        background-color: white;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .surveyintro p {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        padding-left: 1%;
+        padding-right: 1%;
+      }
+
+     #survey-button-cont {
+         text-align:center;
+     }
+
+    #surveybutton {
+        /*all: unset;*/
+        font-family: Helvetica,Arial,sans-serif;
+        display: inline-block;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        background-color: #A02127;
+        color: #FFFFFF;
+        font-size: 20px;
+        border-radius: 9px;
+        padding: 0 33px;
+        font-weight: bold;
+        height: 50px;
+        cursor: pointer;
+        line-height: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+      }
+
+
+
+      #surveybutton:visited{
+          color: #FFFFFF;
+      }
+
+      #surveybutton:hover {
+          background-color: #AD3845;
+      }
+
+      .surveyintro a:link {
+        color: black;
+      }
+      .surveyintro a:visited {
+        color: black;
+      }
+      .surveyintro a:hover {
+        color: gray;
+      }
+
+      @media (orientation: portrait) {
+        nav {
+          margin-top: 2vh;
+        }
+        body {
+          margin-top: 0;
+        }
+        .nav-list {
+          padding-inline-start: 1rem;
+        }
+
+        .longtext {
+          display: none;
+        }
+        .shorttext {
+          display: block;
+        }
+        .surveyintro {
+          width: 95%;
+          /*text-align:left;*/
+        }
+    }
+
+    </style>
+
+
+    <meta charset="UTF-8">
+    <base href="https://uniglobalunion-surveys.org/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">-->
+    <!--<meta name="viewport" content="height=device-height,
+                      width=device-width, initial-scale=1.0,
+                      minimum-scale=1.0, maximum-scale=1.0,
+                      user-scalable=no, target-densitydpi=device-dpi">-->
+    <link rel="stylesheet" href="./js/cookieconsent-2.8.2/src/cookieconsent.css" media="print" onload="this.media='all'">
+
+    <!-- social metadata -->
+    <title>UNI Global Union Surveys</title>
+    <meta name="description" content="Answer a few questions about what it’s like to work for Amazon."/>
+    <meta property="og:title" content="Share Your Story" />
+    <meta property="og:description" content="Answer a few questions about what it’s like to work for Amazon. Your voice matters." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://uniglobalunion-surveys.org/" />
+    <meta property="og:image" content="https://uniglobalunion-surveys.org/img/facebook-social.png" />
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="630"/>
+    <meta property="og:image" content="https://uniglobalunion-surveys.org/img/whats-app-social.jpg" />
+    <meta property="og:image:width" content="301"/>
+    <meta property="og:image:height" content="301"/>
+    <meta property="og:image" content="https://uniglobalunion-surveys.org/img/twitter-social.png" />
+    <meta property="og:image:width" content="1200"/>
+    <meta property="og:image:height" content="1200"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:image" content="https://uniglobalunion-surveys.org/img/facebook-social.png" />
+    <meta name="twitter:description" content="Answer a few questions about what it’s like to work for Amazon. Your voice matters." />
+
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+
+    <script defer src="./js/cookieconsent-2.8.2/src/cookieconsent.js"></script>
+    <script defer src="./js/cookieconsent-init.js"></script>
+
+    <script>
+        function onReadyTF(){
+            //frame = document.getElementById('ifrm');
+            console.log('Ready');
+            //frame.focus();
+        }
+    </script>
+
+    <!-- Meta Pixel Code -->
+    <script type="text/plain" data-cookiecategory="targeting">
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '580467373431564');
+      fbq('track', 'PageView');
+    </script>
+    <!-- End Meta Pixel Code -->
+     
+    <!-- Google Tag Manager -->
+    <script type="text/plain" data-cookiecategory="analytics">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-53KNQKG');</script>
+    <!-- End Google Tag Manager -->
+
+
+  </head>
+
+  <body>
+    <nav>
+      <img class="logo" src="./img/uniglobal-logo.png">
+      <ul class="nav-list">
+        <li class="nav-item item1"><a href="">Survey</a></li>
+        <li class="nav-item item2"><a href="about"><span class="longtext">About UNI Global Union</span><span class="shorttext">About</span></a></li>
+        <li class="nav-dropdown item3">
+            <button class="dropbtn">EN</button>
+            <div class="dropdown-content">
+              <a href="https://de.uniglobalunion-surveys.org/">DE</a>
+              <a href="https://es.uniglobalunion-surveys.org/">ES</a>
+              <a href="https://fr.uniglobalunion-surveys.org/">FR</a>
+              <a href="https://it.uniglobalunion-surveys.org/">IT</a>
+              <a href="https://pl.uniglobalunion-surveys.org/">PL</a>
+            </div>
+        </li>
+      </ul>
+    </nav>
+
+
+    <div class="surveyintro">
+      <h2>Tell us what it’s like to work for Amazon</h2>
+      <p>Representing more than 20 million workers in 150 countries, UNI Global Union is driven by the responsibility to ensure that service jobs are decent jobs, and that workers’ rights are protected. We believe that <b>working people should have their voices heard</b>, and should be free to discuss the realities of day-to-day life on the job.</p>
+      <p>In our research so far, many <b>Amazon workers from all over the world report stress and anxiety</b> due to intense work pace and intrusive technological monitoring of their performance.</p>
+      <p>We want to gain a better understanding of Amazon’s workplace monitoring systems and how you feel they have impacted you as a worker. Please <b>help us ensure Amazon workers like yourself are treated with respect</b>.</p>
+      <p>This survey is made by unions, for workers. It’s just a few questions. We take your privacy seriously and will process your answers according to our privacy policies, which you can find <a href="https://uniglobalunion-surveys.org/privacy">here</a>. Your answers will be kept completely anonymous.</p>
+
+      <div id="survey-button-cont">
+        <a id="surveybutton" href='https://www.uniglobalunion-surveys.org/survey'>Agree & Start</a>
+      </div>
+
+      <script>
+        if (window.location.href.includes('?')){
+          var urlParams = window.location.href.split('?')[1];
+          var hrefLink = "https://www.uniglobalunion-surveys.org/survey?" + urlParams
+          document.getElementById("surveybutton").setAttribute("href", hrefLink);
+        }
+      </script>
+
+      </div>
+
+  </body>
+
+</html>
