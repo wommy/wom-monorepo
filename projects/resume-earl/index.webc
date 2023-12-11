@@ -1,0 +1,133 @@
+---
+layout: 'layouts/base.webc'
+title: 'earl | resume'
+
+name: 'Earl A. Morales'
+contact: 
+- '(248) 525-0490'
+- 'earl.amorales@gmail.com'
+- 'Pleasant Ridge, MI'
+
+experience:
+- header:
+  - Henry Ford Hospital
+  - Macomb, MI
+  - Nurse Assistant
+  - December 2014 – present
+  body:
+  - Establish rapport, assist patients with their activities of daily living, meals, and elimination
+  - Perform and obtain patient vital signs, capillary blood glucose, and blood draws
+  - Record and document assessments and procedures into EPIC charting system
+  - Collaborate with RN to assist in procedures and report any abnormal findings
+- header:
+  - Walgreens
+  - Madison Heights, MI
+  - Certified Pharmacy Technician
+  - December 2014 – present
+  body:
+  - Collaborate with Pharmacist receiving, analyzing, and processing prescriptions
+  - Communicate with patients and health care providers in resolving issues
+  - Provides excellent customer service and resolves complaints
+  - Bookkeeping, inventory control, and data entry
+- header:
+  - Ridgedale Senior Service, Inc
+  - Oak Park, MI
+  - Licensed Adult Foster Care Home Caregiver
+  - January 2004 - January 2008
+  body:
+  - Assisted with geriatric and dementia care
+  - Facilitated patient ambulation
+  - Managed leisure and social activities
+
+additional: 
+- - Birmingham Dance Academy
+  - Birmingham, MI
+  - Dance teacher, October 2014 – present
+- - Annie Divinagracia Sartorio School of Performing Arts
+  - Iloilo City, Philippines
+  - Dance teacher, June 2008 – June 2013
+---
+
+<div id="wrapper" class="bg-slate-300 grid place-content-center p-4">
+
+	<div id="paper" class="bg-white w-[8.5in] h-[11in] p-[.7in]">
+
+		<header class="flex justify-between items-end">
+			<h1 @html=name class="text-6xl"></h1>
+			<div class="flex flex-col">
+				<span webc:for="ea of contact" @html=ea
+					class="text-right text-amber-600"
+				></span>
+			</div>
+		</header>
+
+		<main class="mt-8 p-4 space-y-4">
+			<section>
+				<h2 class="underline inline-block text-amber-600">Objective</h2>
+				<p>Joining a reputable health care organization as a Graduate Nurse to provide exceptional patient care, utilize my quick learning abilities to work hard, implement health care practices, grow and develop my nursing experiences and skills.</p>
+			</section>
+
+			<section>
+				<hr>
+				<span>» </span>
+				<h2 class="inline-block text-amber-600">Education</h2>
+
+				<div class="space-y-4">
+					<div>
+						<span class="font-bold">BSN, Bachelor of Science in Nursing, April 2014 </span>
+						<span>Central Philippine University, Iloilo City, Philippines</span>
+					</div>
+					<div>
+						<span class="font-bold">Ferndale High School, June 2008 </span>
+						<span>Ferndale, Michigan</span>
+					</div>
+					<div>Current with AHA Health Care Provider BLS</div>
+				</div>
+			</section>
+
+			<section>
+				<hr>
+				<span>» </span>
+				<h2 class="inline-block text-amber-600">Work Experience</h2>
+
+				<div class="space-y-4">
+					<div webc:for="obj of experience">
+						<div>
+							<span class="font-bold" @html=obj.header[0]></span>, 
+							<span @html=obj.header[1]></span>
+						</div>
+						<div class="italic">
+							<span @html=obj.header[2]></span>,
+							<span @html=obj.header[3]></span>
+						</div>
+						<ul>
+							<li webc:for="ea of obj.body" @html=ea
+								class="list-disc list-inside ml-4"
+							></li>
+						</ul>
+					</div>
+				</div>
+
+			</section>
+
+			<section>
+				<hr>
+				<span>» </span>
+				<h2 class="inline-block text-amber-600">Additional Experiences</h2>
+				<div class="space-y-4">
+					<div webc:for="ea of additional">
+						<div>
+							<span class="font-bold" @html=ea[0]></span>,
+							<span @html=ea[1]></span>
+						</div>
+						<div>
+							<span class="italic" @html=ea[2]></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+	</div>
+</div>

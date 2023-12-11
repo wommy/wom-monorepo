@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title @text="title"></title>
+	<meta name="generator" :content="eleventy.generator">
+	<!-- <script webc:keep @raw="getBundle('js', 'head')"></script> -->
+	<link webc:keep rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css" />
+	<script webc:keep src="https://cdn.jsdelivr.net/npm/@unocss/runtime" ></script>
+	<!-- <style webc:keep @raw="getBundle('css')"></style> -->
+</head>
+<body class="font-serif text-sm" @raw="content"></body>
+</html>

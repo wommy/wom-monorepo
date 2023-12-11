@@ -1,0 +1,13 @@
+{
+  "name": "@wmr/resume-earl",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "eleventy --serve --incremental",
+    "debug": "DEBUG=* eleventy --serve --incremental"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy-plugin-webc": "^0.11.1"
+  }
+}
